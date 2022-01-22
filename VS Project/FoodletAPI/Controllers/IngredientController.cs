@@ -1,6 +1,7 @@
 ﻿using FoodletAPI.Entities;
 using FoodletAPI.Interfaces.Managers;
 using FoodletAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -48,7 +49,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpPost("add")]
-//        [SwaggerResponse(200, Type = typeof(IngredientModel))]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> AddIngredient([FromBody] IngredientModel newModel)
         {
 
@@ -65,12 +66,14 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpPost("addmany")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> AddListOfIngredients([FromBody] List<IngredientModel> list)
         {
             return Ok(list);
         }
 
         [HttpPut("update")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> UpdateIngredient([FromBody] IngredientWithIdModel updatedIngredient)
         {
             var result = await _manager.Update(updatedIngredient);
@@ -85,6 +88,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpDelete("delete/{id}")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> DeleteIngredient([FromRoute] string id)
         {
             var result = await _manager.Delete(id);

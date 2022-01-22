@@ -8,8 +8,8 @@ namespace FoodletAPI.Interfaces.Managers
 {
     public interface IAuthenticationManager
     {
-        Task Register(RegisterModel registerModel);
-        Task RegisterAdmin(RegisterModel registerModel);
+        Task<int> Register(RegisterModel registerModel);
+        Task<int> RegisterAdmin(RegisterModel registerModel);
         Task<TokenModel> Login(LoginModel loginModel);
     }
 }

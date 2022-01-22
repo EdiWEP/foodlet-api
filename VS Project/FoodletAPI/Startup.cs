@@ -1,4 +1,5 @@
 using FoodletAPI.Entities;
+using FoodletAPI.Helpers;
 using FoodletAPI.Interfaces.Managers;
 using FoodletAPI.Interfaces.Repositories;
 using FoodletAPI.Managers;
@@ -94,6 +95,8 @@ namespace FoodletAPI
                 io.Password.RequireNonAlphanumeric = false;
                 io.Password.RequireDigit = true;
                 io.Password.RequiredLength = 8;
+                io.User.RequireUniqueEmail = true;
+                io.User.AllowedUserNameCharacters = AuthConstants.VALID_USER_CHARS;
             }).AddEntityFrameworkStores<AppDbContext>();
 
             services
@@ -118,7 +121,12 @@ namespace FoodletAPI
                         ClockSkew = TimeSpan.Zero
                     };
                 });
+            services.AddAuthorization(opt =>
+            {
+                opt.AddPolicy("User", policy => policy.RequireRole("User", "Admin").RequireAuthenticatedUser().AddAuthenticationSchemes("AuthScheme").Build());
+                opt.AddPolicy("Admin", policy => policy.RequireRole("Admin").RequireAuthenticatedUser().AddAuthenticationSchemes("AuthScheme").Build());
 
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

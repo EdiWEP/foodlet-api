@@ -1,5 +1,6 @@
 ﻿using FoodletAPI.Interfaces.Managers;
 using FoodletAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -22,6 +23,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpGet("all")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> GetAllRecipes()
         {
             var recipes = await _manager.GetAll();
@@ -30,6 +32,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpGet("id/{id}")]
+        [Authorize(Policy = "User")]
         public async Task<IActionResult> GetRecipeById([FromRoute] string id)
         {
             var recipe = await _manager.GetById(id);
@@ -46,6 +49,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpPost("add")]
+        [Authorize(Policy = "User")]
         public async Task<IActionResult> AddRecipe([FromBody] AddRecipeModel addModel)
         {
             if(await _manager.AddRecipe(addModel))
@@ -59,6 +63,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpPut("update")]
+        [Authorize(Policy = "User")]
         public async Task<IActionResult> UpdateRecipe([FromBody] UpdateRecipeModel updateModel)
         {
             var result = await _manager.Update(updateModel);
@@ -73,6 +78,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpDelete("delete/{id}")]
+        [Authorize(Policy = "User")]
         public async Task<IActionResult> DeleteRecipe([FromRoute] string id)
         {
             var result = await _manager.Delete(id);

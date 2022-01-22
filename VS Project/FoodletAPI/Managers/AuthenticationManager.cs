@@ -7,7 +7,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.ComponentModel.DataAnnotations;
+using FoodletAPI.Helpers;
 
 namespace FoodletAPI.Managers
 {
@@ -26,8 +27,23 @@ namespace FoodletAPI.Managers
             _tokenManager = tokenManager;
         }
 
-        public async Task Register(RegisterModel registerModel)
+        public async Task<int> Register(RegisterModel registerModel)
         {
+            // Trim bad characters
+            registerModel.Email = TrimInput(registerModel.Email);
+            
+            int verifyResult;
+
+            verifyResult = await VerifyEmail(registerModel.Email);
+            if (!verifyResult.Equals(AuthConstants.OK)) return verifyResult;
+
+            verifyResult = await VerifyUsername(registerModel.Username);
+            if (!verifyResult.Equals(AuthConstants.OK)) return verifyResult;
+
+            verifyResult = VerifyPassword(registerModel.Password);
+            if (!verifyResult.Equals(AuthConstants.OK)) return verifyResult;
+
+
             var user = new User
             {
                 Id = Guid.NewGuid().ToString(),
@@ -35,13 +51,28 @@ namespace FoodletAPI.Managers
                 UserName = registerModel.Username
             };
 
-            var result = await _userManager.CreateAsync(user, registerModel.Password);//.CreateAsync(user, signupUserModel.Password);
-
+            await _userManager.CreateAsync(user, registerModel.Password);
             await _userManager.AddToRoleAsync(user, "USER");
+            
+            return AuthConstants.OK;
         }
 
-        public async Task RegisterAdmin(RegisterModel registerModel)
+        public async Task<int> RegisterAdmin(RegisterModel registerModel)
         {
+            registerModel.Email = TrimInput(registerModel.Email);
+            
+            int verifyResult;
+
+            verifyResult = await VerifyEmail(registerModel.Email);
+            if (!verifyResult.Equals(AuthConstants.OK)) return verifyResult;
+
+            verifyResult = await VerifyUsername(registerModel.Username);
+            if (!verifyResult.Equals(AuthConstants.OK)) return verifyResult;
+
+            verifyResult = VerifyPassword(registerModel.Password);
+            if (!verifyResult.Equals(AuthConstants.OK)) return verifyResult;
+
+
             var user = new User
             {
                 Id = Guid.NewGuid().ToString(),
@@ -50,16 +81,22 @@ namespace FoodletAPI.Managers
                 
             };
 
-            var result = await _userManager.CreateAsync(user, registerModel.Password);
+            await _userManager.CreateAsync(user, registerModel.Password);
 
             await _userManager.AddToRoleAsync(user, "ADMIN");
 
+            return AuthConstants.OK;
         }
+
         public async Task<TokenModel> Login(LoginModel loginModel)
         {
+            
+            
             User user;
+            
             if (loginModel.Email != null)
             {
+                loginModel.Email = TrimInput(loginModel.Email);
                 user = await _userManager.FindByEmailAsync(loginModel.Email);
             }
             else {
@@ -79,5 +116,71 @@ namespace FoodletAPI.Managers
             return null;
         }
 
+        private async Task<int> VerifyEmail(string email)
+        {
+            if(email == null)
+            {
+                return AuthConstants.NULL_EMAIL;
+            }
+
+            if (! new EmailAddressAttribute().IsValid(email) )
+            {
+                return AuthConstants.BAD_EMAIL;
+            }
+
+            if(await _userManager.FindByEmailAsync(email) != null)
+            {
+                return AuthConstants.TAKEN_EMAIL;
+            }
+
+            return AuthConstants.OK;
+        }
+
+        private async Task<int> VerifyUsername(string username)
+        {
+            if(username == null)
+            {
+                return AuthConstants.NULL_USERNAME;
+            }
+
+            string validCharacters = AuthConstants.VALID_USER_CHARS;
+
+            foreach(char c in username)
+            {
+                if (!validCharacters.Contains(c))
+                {
+                    // Username contains illegal character
+                    return AuthConstants.BAD_USERNAME;
+                }
+            }
+
+            if (await _userManager.FindByNameAsync(username) != null)
+            {
+                return AuthConstants.TAKEN_USERNAME;
+            }
+
+            return AuthConstants.OK;
+        }
+
+        private int VerifyPassword(string password)
+        {
+            if(password.Length < 8)
+            {
+                // Password too short
+                return AuthConstants.SHORT_PWD;
+            }
+
+            if(!password.Any(char.IsDigit)) {
+                // Password doesn't contain a digit
+                return AuthConstants.PWD_NODIGIT;
+            }
+
+            return AuthConstants.OK;
+        }
+
+        private string TrimInput(string input)
+        {
+            return input.Trim(AuthConstants.INPUT_TRIM_CHARS);
+        }
     }
 }

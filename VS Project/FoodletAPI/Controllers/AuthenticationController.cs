@@ -1,5 +1,7 @@
-﻿using FoodletAPI.Interfaces.Managers;
+﻿using FoodletAPI.Helpers;
+using FoodletAPI.Interfaces.Managers;
 using FoodletAPI.Models.Auth;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -23,23 +25,58 @@ namespace FoodletAPI.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> RegisterUser([FromBody] RegisterModel model)
         {
-            await _manager.Register(model);
+            var result = await _manager.Register(model);
 
-            return Ok();
+            return result switch
+            {
+                AuthConstants.OK => Ok("Successfully registered"),
+                AuthConstants.NULL_USERNAME => BadRequest("Missing username"),
+                AuthConstants.BAD_USERNAME => BadRequest("Invalid username"),
+                AuthConstants.TAKEN_USERNAME => BadRequest("Username is already taken"),
+                AuthConstants.NULL_EMAIL => BadRequest("Missing email"),
+                AuthConstants.BAD_EMAIL=> BadRequest("Invalid email"),
+                AuthConstants.TAKEN_EMAIL => BadRequest("Email is already taken"),
+                AuthConstants.SHORT_PWD => BadRequest("Password must contain at least 8 characters"),
+                AuthConstants.PWD_NODIGIT => BadRequest("Password must contain at least one digit"),
+                _ => BadRequest("Unknown error occurred")
+            };
+            
         }
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            return Ok(await _manager.Login(model));
+            var result = await _manager.Login(model);
+            
+            if (result == null)
+            {
+                return BadRequest("Invalid credentials");
+            }
+            else { 
+                return Ok(await _manager.Login(model));
+            }
         }
 
         [HttpPost("newadmin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> RegisterAdmin([FromBody] RegisterModel model)
         {
-            await _manager.RegisterAdmin(model);
+            var result = await _manager.RegisterAdmin(model);
 
-            return Ok();
+            return result switch
+            {
+                AuthConstants.OK => Ok("Successfully registered"),
+                AuthConstants.NULL_USERNAME => BadRequest("Missing username"),
+                AuthConstants.BAD_USERNAME => BadRequest("Invalid username"),
+                AuthConstants.TAKEN_USERNAME => BadRequest("Username is already taken"),
+                AuthConstants.NULL_EMAIL => BadRequest("Missing email"),
+                AuthConstants.BAD_EMAIL => BadRequest("Invalid email"),
+                AuthConstants.TAKEN_EMAIL => BadRequest("Email is already taken"),
+                AuthConstants.SHORT_PWD => BadRequest("Password must contain at least 8 characters"),
+                AuthConstants.PWD_NODIGIT => BadRequest("Password must contain at least one digit"),
+                _ => BadRequest("Unknown error occurred")
+            };
+
         }
     }
 }

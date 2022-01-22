@@ -11,6 +11,5 @@ namespace FoodletAPI.Models.Auth
         public string Password { get; set; }
         public string Email { get; set; }
 
-        public UserProfileModel UserProfile { get; set; }
     }
 }

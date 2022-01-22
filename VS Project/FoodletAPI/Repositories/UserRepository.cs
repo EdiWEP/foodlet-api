@@ -11,5 +11,6 @@ namespace FoodletAPI.Repositories
     {
         public UserRepository(AppDbContext dbcontext) : base(dbcontext) { }
 
+
     }
 }
