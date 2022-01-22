@@ -18,13 +18,15 @@ namespace FoodletAPI.Managers
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
         private readonly ITokenManager _tokenManager;
+        private readonly IAccountManager _accountManager;
 
         public AuthenticationManager(UserManager<User> userManager, SignInManager<User> signInManager,
-            ITokenManager tokenManager)
+            ITokenManager tokenManager, IAccountManager accountManager)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenManager = tokenManager;
+            _accountManager = accountManager;
         }
 
         public async Task<int> Register(RegisterModel registerModel)
@@ -48,12 +50,15 @@ namespace FoodletAPI.Managers
             {
                 Id = Guid.NewGuid().ToString(),
                 Email = registerModel.Email,
-                UserName = registerModel.Username
+                UserName = registerModel.Username,
+
             };
 
             await _userManager.CreateAsync(user, registerModel.Password);
             await _userManager.AddToRoleAsync(user, "USER");
+            _accountManager.CreateDefaultProfile(user.Id, user.UserName);
             
+
             return AuthConstants.OK;
         }
 
@@ -82,8 +87,8 @@ namespace FoodletAPI.Managers
             };
 
             await _userManager.CreateAsync(user, registerModel.Password);
-
             await _userManager.AddToRoleAsync(user, "ADMIN");
+            _accountManager.CreateDefaultProfile(user.Id, user.UserName);
 
             return AuthConstants.OK;
         }

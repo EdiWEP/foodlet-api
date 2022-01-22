@@ -85,10 +85,10 @@ namespace FoodletAPI.Controllers
 
             return result switch
             {
-                200 => Ok("Successfully deleted the ingredient"),
-                404 => NotFound("Couldn't find ingredient by Id"),
+                200 => Ok("Successfully deleted the recipe"),
+                404 => NotFound("Couldn't find recipe by Id"),
                 500 => StatusCode(500),
-                _ => BadRequest("Couldn't delete ingredient")
+                _ => BadRequest("Couldn't delete recipe")
             };
         }
     }

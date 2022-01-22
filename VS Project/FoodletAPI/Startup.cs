@@ -51,6 +51,9 @@ namespace FoodletAPI
             services.AddScoped<IIngredientManager, IngredientManager>();
             services.AddScoped<IRecipeRepository, RecipeRepository>();
             services.AddScoped<IRecipeManager, RecipeManager>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IProfileRepository, ProfileRepository>();
+            services.AddScoped<IAccountManager, AccountManager>();
             services.AddScoped<IAuthenticationManager, AuthenticationManager>();
             services.AddScoped<ITokenManager, TokenManager>();
 

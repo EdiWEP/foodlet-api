@@ -1,5 +1,4 @@
 ﻿using FoodletAPI.Entities;
-using FoodletAPI.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace FoodletAPI.Interfaces.Repositories
 {
-    public interface IUserRepository : IBaseRepository<User>
+    public interface IProfileRepository : IBaseRepository<UserProfile>
     {
-        Task<List<RoleModel>> GetRoleListByUserId(string id);
+        Task<UserProfile> GetByUserId(string userId);
     }
 }
