@@ -13,5 +13,6 @@ namespace FoodletAPI.Models
         public float Carbs { get; set; }
         public float Fat { get; set; }
         public float Protein { get; set; }
+        public string UserId { get; set; }
     }
 }

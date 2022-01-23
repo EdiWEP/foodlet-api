@@ -34,6 +34,11 @@ namespace FoodletAPI.Managers
             return users;
         }
 
+        public async Task<string> GetUserIdByUserName(string username)
+        {
+            return await _userRepo.GetIdByUserName(username);
+        }
+
         public async Task<ReturnUserModel> GetUserById(string id)
         {
             var entity = await _userRepo.GetById(id);
@@ -52,6 +57,15 @@ namespace FoodletAPI.Managers
             var returnModel = new UserWithRolesModel(user, roles);
 
             return returnModel;
+        }
+
+        public async Task<UserProfileModel> GetProfileByUsername(string username)
+        {
+            var entity = await _profileRepo.GetByUserName(username);
+
+            var profile = new UserProfileModel(entity);
+
+            return profile;
         }
 
         public async Task<UserProfileModel> GetProfileByUserId(string userId)

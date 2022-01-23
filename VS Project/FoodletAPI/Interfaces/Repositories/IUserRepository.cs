@@ -9,6 +9,7 @@ namespace FoodletAPI.Interfaces.Repositories
 {
     public interface IUserRepository : IBaseRepository<User>
     {
+        Task<string> GetIdByUserName(string username);
         Task<List<RoleModel>> GetRoleListByUserId(string id);
     }
 }

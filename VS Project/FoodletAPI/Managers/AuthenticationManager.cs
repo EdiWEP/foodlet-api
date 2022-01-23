@@ -56,7 +56,7 @@ namespace FoodletAPI.Managers
 
             await _userManager.CreateAsync(user, registerModel.Password);
             await _userManager.AddToRoleAsync(user, "USER");
-            _accountManager.CreateDefaultProfile(user.Id, user.UserName);
+            await _accountManager.CreateDefaultProfile(user.Id, user.UserName);
             
 
             return AuthConstants.OK;
@@ -88,7 +88,7 @@ namespace FoodletAPI.Managers
 
             await _userManager.CreateAsync(user, registerModel.Password);
             await _userManager.AddToRoleAsync(user, "ADMIN");
-            _accountManager.CreateDefaultProfile(user.Id, user.UserName);
+            await _accountManager.CreateDefaultProfile(user.Id, user.UserName);
 
             return AuthConstants.OK;
         }
@@ -114,7 +114,7 @@ namespace FoodletAPI.Managers
                 if (result.Succeeded)
                 {
                     var token = await _tokenManager.CreateToken(user);
-                    return new TokenModel { Token = token };
+                    return new TokenModel { Token = token, UserId = user.Id };
                 }
             }
 

@@ -16,6 +16,8 @@ namespace FoodletAPI.Entities
         public float Carbs { get; set; }
         public float Protein { get; set; }
 
+        public string UserId { get; set; }
+        public virtual User User { get; set; }
         public virtual ICollection<RecipeIngredient> Recipes { get; set; }
 
         public Ingredient()
@@ -47,6 +49,7 @@ namespace FoodletAPI.Entities
             Fat = addModel.Fat;
             Carbs = addModel.Carbs;
             Protein = addModel.Protein;
+            UserId = addModel.UserId;
             Recipes = null;
         }
 

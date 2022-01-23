@@ -56,6 +56,7 @@ namespace FoodletAPI
             services.AddScoped<IAccountManager, AccountManager>();
             services.AddScoped<IAuthenticationManager, AuthenticationManager>();
             services.AddScoped<ITokenManager, TokenManager>();
+            services.AddScoped<ISearchManager, SearchManager>();
 
 
             services.AddSwaggerGen(c =>
@@ -130,6 +131,14 @@ namespace FoodletAPI
                 opt.AddPolicy("Admin", policy => policy.RequireRole("Admin").RequireAuthenticatedUser().AddAuthenticationSchemes("AuthScheme").Build());
 
             });
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "_allowSpecificOrigins",
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("localhost:4200", "http://localhost:4200/", "https://localhost:4200/").AllowAnyMethod().AllowAnyHeader();
+                                  });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -142,7 +151,7 @@ namespace FoodletAPI
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "FoodletAPI v1"));
             }
 
-
+            app.UseCors("_allowSpecificOrigins");
             app.UseHttpsRedirection();
 
             app.UseRouting();

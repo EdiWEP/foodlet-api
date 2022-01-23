@@ -15,6 +15,7 @@ namespace FoodletAPI.Interfaces.Managers
 
         Task<ReturnUserModel> GetUserById(string id);
 
+        Task<UserProfileModel> GetProfileByUsername(string username);
         Task<UserProfileModel> GetProfileByUserId(string userId);
 
         Task CreateDefaultProfile(string userId, string userName);

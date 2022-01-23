@@ -18,5 +18,16 @@ namespace FoodletAPI.Repositories
             return await _db.UserProfiles.Where(up => up.UserId == userId).FirstOrDefaultAsync();
          
         } 
+
+        public async Task<UserProfile> GetByUserName(string username)
+        {
+            return await _set.Join(
+                                    _db.Users,
+                                    p => p.UserId, u => u.Id,
+                                    (p, u) => new { Profile = p, UserName = u.NormalizedUserName }
+                                  )
+                            .Where(x => x.UserName == username.ToUpper())
+                            .Select(x => x.Profile).FirstOrDefaultAsync();
+        }
     }
 }

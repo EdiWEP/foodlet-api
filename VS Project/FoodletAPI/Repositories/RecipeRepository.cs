@@ -13,7 +13,7 @@ namespace FoodletAPI.Repositories
     {
 
         public RecipeRepository(AppDbContext dbcontext) : base(dbcontext) { }
-
+        
         public async Task<Recipe> GetByIdWithIngredients(string id)
         {
             return await _db.Recipes.WithIngredients().AsNoTracking().FirstOrDefaultAsync<Recipe>(x => x.Id == id);//.Single(x => x.Id == id);
@@ -37,6 +37,11 @@ namespace FoodletAPI.Repositories
         public void AddRecipeIngredients(List<RecipeIngredient> newIngredients)
         {
             _db.RecipeIngredients.AddRange(newIngredients);
+        }
+
+        public async Task<List<Recipe>> SearchByName(string term, string userId)
+        {
+            return await _set.OfUser(userId).Where(x => x.Name.Contains(term)).WithIngredients().ToListAsync();
         }
 
         public void UpdateRecipeIngredients(string recipeId, List<RecipeIngredient> newIngredients)

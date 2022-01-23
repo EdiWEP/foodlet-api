@@ -24,7 +24,7 @@ namespace FoodletAPI.Managers
 
             var ingredients = new List<IngredientWithIdModel>();
 
-            foreach(var entity in ingredientEntities)
+            foreach (var entity in ingredientEntities)
             {
                 ingredients.Add(new IngredientWithIdModel(entity));
             }
@@ -40,32 +40,84 @@ namespace FoodletAPI.Managers
             return await _repo.SaveChanges();
         }
 
+        public async Task<bool> AddListOfIngredients(List<IngredientModel> ingredientModels)
+        {
+            var ingredients = new List<Ingredient>();
+
+            foreach(var model in ingredientModels)
+            {
+                ingredients.Add(new Ingredient(model));
+            }
+
+            _repo.CreateRangeFromList(ingredients);
+
+            return await _repo.SaveChanges();
+        }
+
         public async Task<IngredientWithIdModel> GetById(string id) 
         { 
             var entity = await _repo.GetById(id);
+
+            if (entity == null)
+            {
+                return null;
+            }
             return new IngredientWithIdModel(entity);
         }
 
-        public async Task<int> Delete(string id) 
+        public async Task<IngredientWithIdModel> GetByName(string name)
         {
-            var ingredient = await _repo.GetById(id);
+            var entity = await _repo.GetByName(name);
 
-            if(ingredient == null)
+            if (entity == null)
             {
-                return 404;
+                return null;
             }
-
-            _repo.Delete(ingredient);
-
-            if (await _repo.SaveChanges())
-            {
-                return 200;
-            }
-            else
-            {
-                return 500;
-            }
+            return new IngredientWithIdModel(entity);
         }
+
+        public async Task<List<IngredientWithIdModel>> GetAllDefault()
+        {
+            var entities = await _repo.GetAllDefault();
+
+            var ingredients = new List<IngredientWithIdModel>();
+
+            foreach (var entity in entities)
+            {
+                ingredients.Add(new IngredientWithIdModel(entity));
+            }
+
+            return ingredients;
+        }
+
+        public async Task<List<IngredientWithIdModel>> GetByUserId(string userId)
+        {
+            var entities = await _repo.GetByUserId(userId);
+
+            var ingredients = new List<IngredientWithIdModel>();
+
+            foreach (var entity in entities)
+            {
+                ingredients.Add(new IngredientWithIdModel(entity));
+            }
+
+            return ingredients;
+        }
+
+        public async Task<List<IngredientWithIdModel>> GetAllOfUser(string userId)
+        {
+            var entities = await _repo.GetAllOfUser(userId);
+
+            var ingredients = new List<IngredientWithIdModel>();
+
+            foreach (var entity in entities)
+            {
+                ingredients.Add(new IngredientWithIdModel(entity));
+            }
+
+            return ingredients;
+        }
+
 
         public async Task<int> Update(IngredientWithIdModel ingredientModel) 
         {
@@ -81,6 +133,27 @@ namespace FoodletAPI.Managers
             _repo.Update(ingredient);
 
             if(await _repo.SaveChanges())
+            {
+                return 200;
+            }
+            else
+            {
+                return 500;
+            }
+        }
+
+        public async Task<int> Delete(string id)
+        {
+            var ingredient = await _repo.GetById(id);
+
+            if (ingredient == null)
+            {
+                return 404;
+            }
+
+            _repo.Delete(ingredient);
+
+            if (await _repo.SaveChanges())
             {
                 return 200;
             }

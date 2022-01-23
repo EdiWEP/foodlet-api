@@ -3,6 +3,7 @@ using FoodletAPI.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,10 +17,12 @@ namespace FoodletAPI.Controllers
     public class AccountController : ControllerBase
     {
         private readonly IAccountManager _manager;
+        private readonly ITokenManager _tokenManager;
 
-        public AccountController(IAccountManager accountManager)
+        public AccountController(IAccountManager accountManager, ITokenManager tokenManager)
         {
             _manager = accountManager;
+            _tokenManager = tokenManager;
         }
 
         [HttpGet("all")]
@@ -63,12 +66,12 @@ namespace FoodletAPI.Controllers
             }
         }
 
-        [HttpGet("profile/{userId}")]
+        [HttpGet("profile/{user}")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> GetProfileByUserId([FromRoute] string userId)
+        public async Task<IActionResult> GetProfileByUserId([FromRoute] string user)
         {
 
-            var profile = await _manager.GetProfileByUserId(userId);
+            var profile = await _manager.GetProfileByUsername(user);
 
             if (profile == null)
             {
@@ -82,8 +85,14 @@ namespace FoodletAPI.Controllers
 
         [HttpPut("update/profile")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> UpdateProfile([FromBody] UpdateUserProfileModel model)
+        public async Task<IActionResult> UpdateProfile([FromBody] UpdateUserProfileModel model, [FromHeader] string Authorization)
         {
+            
+            if(! await _tokenManager.VerifyRequestedUser(Authorization, model.UserId))
+            {
+                return StatusCode(403);
+            }
+
             var result = await _manager.UpdateProfile(model);
 
             return result switch

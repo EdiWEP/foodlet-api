@@ -11,7 +11,11 @@ namespace FoodletAPI.Interfaces.Managers
     {
         Task<List<ReturnRecipeModel>> GetAll();
 
+        Task<List<ReturnRecipeModel>> GetAllFromUser(string userId);
+
         Task<ReturnRecipeModel> GetById(string id);
+
+        Task<string> GetUserId(string id);
 
         Task<bool> AddRecipe(AddRecipeModel addModel);
 

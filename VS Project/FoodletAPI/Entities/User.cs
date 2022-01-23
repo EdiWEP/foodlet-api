@@ -13,6 +13,8 @@ namespace FoodletAPI.Entities
 
         public virtual ICollection<Recipe> Recipes { get; set; }
 
+        public virtual ICollection<Ingredient> Ingredients { get; set; }
+
         public User() : base()
         {
 

@@ -17,6 +17,9 @@ namespace FoodletAPI.Entities
             builder.Property(x => x.Name).IsRequired(true)
                 .HasColumnType("nvarchar(150)").HasMaxLength(150);
 
+            builder.HasOne(x => x.User).WithMany(u => u.Ingredients).HasForeignKey(x => x.UserId).IsRequired(false);
+            builder.Property(x => x.UserId).IsRequired(false);
+
             builder.Property(x => x.Calsperg).IsRequired(true);
             builder.Property(x => x.Carbs).IsRequired(true);
             builder.Property(x => x.Fat).IsRequired(true);

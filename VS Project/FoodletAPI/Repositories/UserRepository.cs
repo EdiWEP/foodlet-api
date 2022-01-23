@@ -34,5 +34,10 @@ namespace FoodletAPI.Repositories
                             ).ToListAsync();
             return roleList;
         } 
+
+        public async Task<string> GetIdByUserName(string username)
+        {
+            return await _set.Where(x => x.UserName == username).Select(x => x.Id).FirstOrDefaultAsync();
+        }
     }
 }

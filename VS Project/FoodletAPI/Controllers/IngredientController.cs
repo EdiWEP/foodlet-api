@@ -19,13 +19,40 @@ namespace FoodletAPI.Controllers
     {
 
         private readonly IIngredientManager _manager;
+        private readonly ITokenManager _tokenManager;
 
-        public IngredientController(IIngredientManager ingredientManager)
+        public IngredientController(IIngredientManager ingredientManager, ITokenManager tokenManager)
         {
             _manager = ingredientManager;
+            _tokenManager = tokenManager;
         }
 
-        [HttpGet("all")]
+        [HttpGet("all/default")]
+        public async Task<IActionResult> GetAllDefaultIngredients()
+        {
+            var ingredients = await _manager.GetAllDefault();
+
+            return Ok(ingredients);
+        }
+
+        [HttpGet("all/{userId}")]
+        [Authorize(Policy = "User")]
+        public async Task<IActionResult> GetAllForUser([FromRoute] string userId, [FromHeader] string Authorization)
+        {
+
+            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
+            {
+                return StatusCode(403);
+            }
+
+            var ingredients = await _manager.GetByUserId(userId);
+
+            return Ok(ingredients);
+        }
+
+        
+        [HttpGet("all/admin")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> GetAllIngredients()
         {
             var ingredients = await _manager.GetAll();
@@ -33,10 +60,49 @@ namespace FoodletAPI.Controllers
             return Ok(ingredients); 
         }
 
-        [HttpGet("id/{id}")]
-        public async Task<IActionResult> GetIngredientById([FromRoute] string id)
+
+        [HttpGet("user/{userId}")]
+        [Authorize(Policy = "User")]
+        public async Task<IActionResult> GetAllOfUser([FromRoute] string userId, [FromHeader] string Authorization)
         {
+            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
+            {
+                return StatusCode(403);
+            }
+
+            var ingredients = await _manager.GetAllOfUser(userId);
+
+            return Ok(ingredients);
+        }
+
+
+        [HttpGet("id/{id}")]
+        [Authorize(Policy = "Admin")]
+        public async Task<IActionResult> GetIngredientById([FromRoute] string id) 
+        { 
+        
             var ingredient = await _manager.GetById(id);
+            
+            if (ingredient == null)
+            {
+                return NotFound("Ingredient not found");
+            }
+            else
+            {
+                return Ok(ingredient);
+            }
+        }
+
+        [HttpGet("name/{name}")]
+        [Authorize(Policy = "Admin")]
+        public async Task<IActionResult> GetIngredientByName([FromRoute] string name)
+        {
+            var ingredient = await _manager.GetByName(name);
+
+            if(!name.All(c => Char.IsLetter(c) || c == ' '))
+            {
+                return BadRequest("Name must contain only letters and spaces");
+            }
 
             if (ingredient == null)
             {
@@ -49,11 +115,30 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpPost("add")]
+        [Authorize(Policy = "User")]
+        public async Task<IActionResult> AddUserIngredient([FromBody] IngredientModel model, [FromHeader] string Authorization)
+        {
+            if (!await _tokenManager.VerifyRequestedUser(Authorization, model.UserId))
+            {
+                return StatusCode(403);
+            }
+
+            if (await _manager.AddIngredient(model))
+            {
+                return Ok("Successfuly added the new ingredient");
+            }
+            else
+            {
+                return BadRequest("Couldn't add ingredient");
+            }
+        }
+
+        [HttpPost("add/admin")]
         [Authorize(Policy = "Admin")]
-        public async Task<IActionResult> AddIngredient([FromBody] IngredientModel newModel)
+        public async Task<IActionResult> AddIngredient([FromBody] IngredientModel model)
         {
 
-            if(await _manager.AddIngredient(newModel))
+            if(await _manager.AddIngredient(model))
             {
 
                 return Ok("Successfuly added the new ingredient");
@@ -69,7 +154,16 @@ namespace FoodletAPI.Controllers
         [Authorize(Policy = "Admin")]
         public async Task<IActionResult> AddListOfIngredients([FromBody] List<IngredientModel> list)
         {
-            return Ok(list);
+
+            if (await _manager.AddListOfIngredients(list))
+            {
+                return Ok("Successfuly added the new ingredients");
+            }
+            else
+            {
+                return BadRequest("Couldn't add ingredients");
+            }
+
         }
 
         [HttpPut("update")]

@@ -16,6 +16,8 @@ namespace FoodletAPI.Interfaces.Repositories
 
         Task<List<Recipe>> GetAllWithIngredients();
 
+        Task<List<Recipe>> SearchByName(string term, string userId);
+
         void AddRecipeIngredients(List<RecipeIngredient> newIngredients);
 
         void UpdateRecipeIngredients(string recipeId, List<RecipeIngredient> newIngredients);

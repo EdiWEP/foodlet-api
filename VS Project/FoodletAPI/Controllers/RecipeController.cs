@@ -16,10 +16,11 @@ namespace FoodletAPI.Controllers
     {
 
         private readonly IRecipeManager _manager;
-
-        public RecipeController(IRecipeManager recipeManager)
+        private readonly ITokenManager _tokenManager;
+        public RecipeController(IRecipeManager recipeManager, ITokenManager tokenManager)
         {
             _manager = recipeManager;
+            _tokenManager = tokenManager;
         }
 
         [HttpGet("all")]
@@ -31,10 +32,26 @@ namespace FoodletAPI.Controllers
             return Ok(recipes);
         }
 
+        [HttpGet("all/{userId}")]
+        [Authorize(Policy = "User")]
+        public async Task<IActionResult> GetAllFromUser([FromRoute] string userId, [FromHeader] string Authorization)
+        {
+
+            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
+            {
+                return StatusCode(403);
+            }
+
+            var recipes = await _manager.GetAllFromUser(userId);
+
+            return Ok(recipes);
+        }
+
         [HttpGet("id/{id}")]
         [Authorize(Policy = "User")]
         public async Task<IActionResult> GetRecipeById([FromRoute] string id)
         {
+
             var recipe = await _manager.GetById(id);
 
             if (recipe == null)
@@ -50,8 +67,14 @@ namespace FoodletAPI.Controllers
 
         [HttpPost("add")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> AddRecipe([FromBody] AddRecipeModel addModel)
+        public async Task<IActionResult> AddRecipe([FromBody] AddRecipeModel addModel, [FromHeader] string Authorization)
         {
+            
+            if(! await _tokenManager.VerifyRequestedUser(Authorization, addModel.UserId))
+            {
+                return StatusCode(403);
+            }
+
             if(await _manager.AddRecipe(addModel))
             {
                 return Ok("Successfully added the new recipe");
@@ -64,8 +87,14 @@ namespace FoodletAPI.Controllers
 
         [HttpPut("update")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> UpdateRecipe([FromBody] UpdateRecipeModel updateModel)
+        public async Task<IActionResult> UpdateRecipe([FromBody] UpdateRecipeModel updateModel, [FromHeader] string Authorization)
         {
+            
+            if(! await _tokenManager.VerifyRequestedUser(Authorization, updateModel.UserId))
+            {
+                return StatusCode(403);
+            }
+
             var result = await _manager.Update(updateModel);
 
             return result switch
@@ -79,8 +108,17 @@ namespace FoodletAPI.Controllers
 
         [HttpDelete("delete/{id}")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> DeleteRecipe([FromRoute] string id)
+        public async Task<IActionResult> DeleteRecipe([FromRoute] string id, [FromHeader] string Authorization)
         {
+            var userId = await _manager.GetUserId(id);
+
+            if (userId == null) return NotFound("Couldn't find recipe by Id");
+
+            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
+            {
+                return StatusCode(403);
+            }
+
             var result = await _manager.Delete(id);
 
             return result switch

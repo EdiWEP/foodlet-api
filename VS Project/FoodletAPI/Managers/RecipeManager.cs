@@ -62,6 +62,14 @@ namespace FoodletAPI.Managers
             return recipes;
         }
 
+        public async Task<string> GetUserId(string id)
+        {
+            var entity = await _repo.GetById(id);
+
+            if (entity == null) return null;
+            return entity.UserId;
+        }
+
         public async Task<bool> AddRecipe(AddRecipeModel addModel) 
         {
             var newRecipe = new Recipe(addModel);
