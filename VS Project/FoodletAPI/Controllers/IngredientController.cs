@@ -35,15 +35,12 @@ namespace FoodletAPI.Controllers
             return Ok(ingredients);
         }
 
-        [HttpGet("all/{userId}")]
+        [HttpGet("all")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> GetAllForUser([FromRoute] string userId, [FromHeader] string Authorization)
+        public async Task<IActionResult> GetAllForUser([FromHeader] string Authorization)
         {
 
-            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
-            {
-                return StatusCode(403);
-            }
+            var userId = _tokenManager.GetUserIdFromToken(Authorization);
 
             var ingredients = await _manager.GetByUserId(userId);
 
@@ -61,14 +58,11 @@ namespace FoodletAPI.Controllers
         }
 
 
-        [HttpGet("user/{userId}")]
+        [HttpGet("all/owned")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> GetAllOfUser([FromRoute] string userId, [FromHeader] string Authorization)
+        public async Task<IActionResult> GetAllOfUser([FromHeader] string Authorization)
         {
-            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
-            {
-                return StatusCode(403);
-            }
+            var userId = _tokenManager.GetUserIdFromToken(Authorization);
 
             var ingredients = await _manager.GetAllOfUser(userId);
 
@@ -167,8 +161,28 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpPut("update")]
+        [Authorize(Policy = "User")]
+        public async Task<IActionResult> UpdateIngredient([FromBody] IngredientWithIdModel updatedIngredient, [FromHeader] string Authorization)
+        {
+            if (!await _tokenManager.VerifyRequestedUser(Authorization, updatedIngredient.UserId))
+            {
+                return StatusCode(403);
+            }
+
+            var result = await _manager.Update(updatedIngredient);
+
+            return result switch
+            {
+                200 => Ok("Successfully updated the ingredient"),
+                404 => NotFound("Couldn't find ingredient by Id"),
+                500 => StatusCode(500),
+                _ => BadRequest("Couldn't update ingredient")
+            };
+        }
+
+        [HttpPut("update/admin")]
         [Authorize(Policy = "Admin")]
-        public async Task<IActionResult> UpdateIngredient([FromBody] IngredientWithIdModel updatedIngredient)
+        public async Task<IActionResult> ForceUpdateIngredient([FromBody] IngredientWithIdModel updatedIngredient)
         {
             var result = await _manager.Update(updatedIngredient);
 
@@ -182,10 +196,29 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpDelete("delete/{id}")]
-        [Authorize(Policy = "Admin")]
-        public async Task<IActionResult> DeleteIngredient([FromRoute] string id)
+        [Authorize(Policy = "User")]
+        public async Task<IActionResult> DeleteIngredient([FromRoute] string id, [FromHeader] string Authorization)
         {
-            var result = await _manager.Delete(id);
+
+            var userId = _tokenManager.GetUserIdFromToken(Authorization);
+
+            var result = await _manager.Delete(id, userId);
+
+            return result switch
+            {
+                200 => Ok("Successfully updated the ingredient"),
+                403 => StatusCode(403),
+                404 => NotFound("Couldn't find ingredient by Id"),
+                500 => StatusCode(500),
+                _ => BadRequest("Couldn't update ingredient")
+            };
+        }
+
+        [HttpDelete("delete/{id}/admin")]
+        [Authorize(Policy = "Admin")]
+        public async Task<IActionResult> ForceDeleteIngredient([FromRoute] string id)
+        {
+            var result = await _manager.ForceDelete(id);
 
             return result switch
             {

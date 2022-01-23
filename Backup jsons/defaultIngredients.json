@@ -1,0 +1,4466 @@
+[
+  {
+    "id": "0127f817-5978-44b4-a503-330aac553e16",
+    "name": "croutons",
+    "calsperg": 4.081,
+    "carbs": 0.723,
+    "fat": 0.067,
+    "protein": 0.12
+  },
+  {
+    "id": "02b7c63d-3396-4f75-9a87-224f229cbd88",
+    "name": "corn chips",
+    "calsperg": 5.18,
+    "carbs": 0.632,
+    "fat": 0.281,
+    "protein": 0.06
+  },
+  {
+    "id": "0387e485-58ab-4118-a9a9-8a32d36cb146",
+    "name": "brown sugar",
+    "calsperg": 3.8,
+    "carbs": 0.98,
+    "fat": 0,
+    "protein": 0.001
+  },
+  {
+    "id": "04580460-eae3-4d49-b957-a595102ec381",
+    "name": "sundaes",
+    "calsperg": 1.799,
+    "carbs": 0.302,
+    "fat": 0.053,
+    "protein": 0.037
+  },
+  {
+    "id": "051e1a81-680a-46cb-b2b5-65a0fd87bdfc",
+    "name": "nectar",
+    "calsperg": 0.316,
+    "carbs": 0.082,
+    "fat": 0,
+    "protein": 0.066
+  },
+  {
+    "id": "058ccaaa-2772-459f-a72c-4ee5710fe701",
+    "name": "agave nectar",
+    "calsperg": 3.1,
+    "carbs": 0.76,
+    "fat": 0.005,
+    "protein": 0.001
+  },
+  {
+    "id": "065cc956-fe46-42d7-80d1-25cb85292d8e",
+    "name": "almond butter",
+    "calsperg": 6.086,
+    "carbs": 0.187,
+    "fat": 0.555,
+    "protein": 0.209
+  },
+  {
+    "id": "06e7f9ee-e5c2-4775-b26b-89562294f185",
+    "name": "gumbo",
+    "calsperg": 0.867,
+    "carbs": 0.098,
+    "fat": 0.033,
+    "protein": 0.041
+  },
+  {
+    "id": "06fc5466-6be0-45f1-9291-f0a36a90ec57",
+    "name": "green peas",
+    "calsperg": 0.774,
+    "carbs": 0.136,
+    "fat": 0.004,
+    "protein": 0.05
+  },
+  {
+    "id": "0806a0b7-90e9-43f0-ab7d-1269c4401ce1",
+    "name": "tuna",
+    "calsperg": 1.3,
+    "carbs": 0,
+    "fat": 0.006,
+    "protein": 0.29
+  },
+  {
+    "id": "086385e1-2a4e-4aeb-920e-69138a01716f",
+    "name": "cheese pizza",
+    "calsperg": 2.659,
+    "carbs": 0.335,
+    "fat": 0.094,
+    "protein": 0.112
+  },
+  {
+    "id": "08a902a8-8010-44db-aead-17e34d5d25cc",
+    "name": "nut cheese",
+    "calsperg": 2.1,
+    "carbs": 0.04,
+    "fat": 0.101,
+    "protein": 0.256
+  },
+  {
+    "id": "0b7aca12-7df3-4dc3-a7fe-ded9ad0cf68a",
+    "name": "cranberry juice",
+    "calsperg": 0.453,
+    "carbs": 0.111,
+    "fat": 0.001,
+    "protein": 0.003
+  },
+  {
+    "id": "0c525dbc-01be-4369-ac0e-5508082edd88",
+    "name": "baked beans",
+    "calsperg": 1.529,
+    "carbs": 0.216,
+    "fat": 0.05,
+    "protein": 0.057
+  },
+  {
+    "id": "0c8a918f-818e-4afb-bb11-998348e1cfe3",
+    "name": "ginger",
+    "calsperg": 0.8,
+    "carbs": 0.18,
+    "fat": 0.008,
+    "protein": 0.018
+  },
+  {
+    "id": "0cab2305-693f-4ce5-8d57-13a5d8108f2a",
+    "name": "muenster cheese",
+    "calsperg": 3.675,
+    "carbs": 0.011,
+    "fat": 0.296,
+    "protein": 0.239
+  },
+  {
+    "id": "0d0fc3d1-76cd-4fc1-8eb1-4d629f2bc398",
+    "name": "spaghetti",
+    "calsperg": 1.58,
+    "carbs": 0.31,
+    "fat": 0.009,
+    "protein": 0.06
+  },
+  {
+    "id": "0d24557a-f593-43b1-88c3-eb867485c9fc",
+    "name": "raisin bread",
+    "calsperg": 2.74,
+    "carbs": 0.52,
+    "fat": 0.044,
+    "protein": 0.079
+  },
+  {
+    "id": "0dfee2a3-24c9-4bd9-9b2e-b92389cf9381",
+    "name": "brownies",
+    "calsperg": 4.661,
+    "carbs": 0.498,
+    "fat": 0.288,
+    "protein": 0.062
+  },
+  {
+    "id": "0e85d109-9164-4644-b993-b38cd6d365af",
+    "name": "cappuccino",
+    "calsperg": 0.42,
+    "carbs": 0.042,
+    "fat": 0.016,
+    "protein": 0.026
+  },
+  {
+    "id": "0ea3c0fa-79b1-4b02-8079-f328960833ec",
+    "name": "rice",
+    "calsperg": 1.3,
+    "carbs": 0.28,
+    "fat": 0.003,
+    "protein": 0.027
+  },
+  {
+    "id": "0f71c1d7-3d92-424c-a838-676f43a09cf6",
+    "name": "basil",
+    "calsperg": 0.24,
+    "carbs": 0.02,
+    "fat": 0,
+    "protein": 0.04
+  },
+  {
+    "id": "0f8db41e-cd4e-4c7c-ad6f-b1caa8dc9840",
+    "name": "chimichangas",
+    "calsperg": 2.441,
+    "carbs": 0.249,
+    "fat": 0.112,
+    "protein": 0.112
+  },
+  {
+    "id": "0fcbf9ae-eedd-47af-919e-32c9ec5d53e5",
+    "name": "beets",
+    "calsperg": 0.44,
+    "carbs": 0.1,
+    "fat": 0.002,
+    "protein": 0.017
+  },
+  {
+    "id": "103ab944-2d58-45ca-8573-38a4e12a98c3",
+    "name": "gouda cheese",
+    "calsperg": 3.56,
+    "carbs": 0.022,
+    "fat": 0.27,
+    "protein": 0.25
+  },
+  {
+    "id": "104f6ab6-4dd4-49ed-abb7-ea138ed3ceef",
+    "name": "french dressing",
+    "calsperg": 4.532,
+    "carbs": 0.156,
+    "fat": 0.442,
+    "protein": 0.007
+  },
+  {
+    "id": "10f7ff70-3756-4bd7-809a-eb5791851dc6",
+    "name": "beef",
+    "calsperg": 2.5,
+    "carbs": 0,
+    "fat": 0.15,
+    "protein": 0.26
+  },
+  {
+    "id": "111b821a-e4d0-4938-bd70-e6794e6e6421",
+    "name": "multigrain bread",
+    "calsperg": 2.857,
+    "carbs": 0.49,
+    "fat": 0.092,
+    "protein": 0.041
+  },
+  {
+    "id": "114a3b90-8456-47fd-84be-09b53afb38c0",
+    "name": "ice cream soda",
+    "calsperg": 0.51,
+    "carbs": 0.13,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "1229912e-7624-476a-bfee-b35b1bacb3da",
+    "name": "turkey bacon",
+    "calsperg": 3.797,
+    "carbs": 0.031,
+    "fat": 0.281,
+    "protein": 0.291
+  },
+  {
+    "id": "13543970-2fc4-4450-8aa8-fcaaeab2f4a1",
+    "name": "pickles",
+    "calsperg": 0.11,
+    "carbs": 0.023,
+    "fat": 0.002,
+    "protein": 0.003
+  },
+  {
+    "id": "139b3172-bc6b-451c-97a5-3e0228ed58b2",
+    "name": "milk",
+    "calsperg": 0.51,
+    "carbs": 0.05,
+    "fat": 0.019,
+    "protein": 0.035
+  },
+  {
+    "id": "13ddbff4-eb59-4494-bbbf-9696f2ac73c8",
+    "name": "quiche",
+    "calsperg": 3.71,
+    "carbs": 0.099,
+    "fat": 0.31,
+    "protein": 0.13
+  },
+  {
+    "id": "155a2263-7a9d-4c9c-87c2-99bb95fa036a",
+    "name": "raspberries",
+    "calsperg": 0.53,
+    "carbs": 0.12,
+    "fat": 0.007,
+    "protein": 0.012
+  },
+  {
+    "id": "15a718e5-339f-4290-91db-142139071d75",
+    "name": "white wine",
+    "calsperg": 0.82,
+    "carbs": 0.026,
+    "fat": 0,
+    "protein": 0.001
+  },
+  {
+    "id": "16f1ac16-769d-4e03-b4c1-bf9193c3acd9",
+    "name": "granola",
+    "calsperg": 4.693,
+    "carbs": 0.647,
+    "fat": 0.204,
+    "protein": 0.1
+  },
+  {
+    "id": "17644fd0-afa4-4ac4-875a-e926139a2010",
+    "name": "bulgur",
+    "calsperg": 3.42,
+    "carbs": 0.76,
+    "fat": 0.013,
+    "protein": 0.12
+  },
+  {
+    "id": "17cc8dfd-ccdc-48fc-a6c6-5ed60158837d",
+    "name": "cookies",
+    "calsperg": 4.92,
+    "carbs": 0.65,
+    "fat": 0.25,
+    "protein": 0.051
+  },
+  {
+    "id": "180784cb-1191-4158-8d66-00763a003c9b",
+    "name": "sardines",
+    "calsperg": 2.031,
+    "carbs": 0,
+    "fat": 0.111,
+    "protein": 0.243
+  },
+  {
+    "id": "18101ab7-08d5-4b6b-93b6-deac98bbba22",
+    "name": "fried chicken",
+    "calsperg": 2.461,
+    "carbs": 0.019,
+    "fat": 0.118,
+    "protein": 0.304
+  },
+  {
+    "id": "1848c8ae-e24d-437e-bead-eac7a5057515",
+    "name": "apple",
+    "calsperg": 0.52,
+    "carbs": 0.14,
+    "fat": 0.002,
+    "protein": 0.003
+  },
+  {
+    "id": "186590df-b455-4d9a-a3f2-f06690fa64bf",
+    "name": "pita bread",
+    "calsperg": 2.75,
+    "carbs": 0.558,
+    "fat": 0.011,
+    "protein": 0.088
+  },
+  {
+    "id": "18d16fe7-8edb-46f2-8ebe-5bfce957f2ec",
+    "name": "blueberries",
+    "calsperg": 0.572,
+    "carbs": 0.144,
+    "fat": 0.003,
+    "protein": 0.007
+  },
+  {
+    "id": "18d2ebf2-b4c8-40b3-bec0-0dfbeff46107",
+    "name": "seafood",
+    "calsperg": 2.044,
+    "carbs": 0.018,
+    "fat": 0.081,
+    "protein": 0.285
+  },
+  {
+    "id": "18fb6238-33b4-4a04-bc6e-bde0e407b8a3",
+    "name": "brie cheese",
+    "calsperg": 3.334,
+    "carbs": 0.005,
+    "fat": 0.28,
+    "protein": 0.21
+  },
+  {
+    "id": "193b062b-e084-4abd-8d73-7b5368ad993c",
+    "name": "lemon juice",
+    "calsperg": 0.17,
+    "carbs": 0.056,
+    "fat": 0,
+    "protein": 0.004
+  },
+  {
+    "id": "1a6b0ab9-8502-490c-b57e-c98c79c8eee7",
+    "name": "papayas",
+    "calsperg": 0.43,
+    "carbs": 0.11,
+    "fat": 0.003,
+    "protein": 0.005
+  },
+  {
+    "id": "1ad51ce8-93a9-4039-b4f9-1c99c40065af",
+    "name": "thyme",
+    "calsperg": 1.01,
+    "carbs": 0.24,
+    "fat": 0.017,
+    "protein": 0.06
+  },
+  {
+    "id": "1b0d6055-f97a-4e6d-9916-0ec62beb7497",
+    "name": "chowders",
+    "calsperg": 0.99,
+    "carbs": 0.076,
+    "fat": 0.062,
+    "protein": 0.031
+  },
+  {
+    "id": "1b0f99d5-6097-4ff7-b519-794bb6b0de10",
+    "name": "pizza sauce",
+    "calsperg": 0.29,
+    "carbs": 0.07,
+    "fat": 0.002,
+    "protein": 0.013
+  },
+  {
+    "id": "1b77e2f2-79ac-4889-acff-b8d474faf730",
+    "name": "colby cheese",
+    "calsperg": 3.94,
+    "carbs": 0.025,
+    "fat": 0.313,
+    "protein": 0.243
+  },
+  {
+    "id": "1bb46474-a0a8-4f6b-a078-2c95ad525b1f",
+    "name": "sun dried tomatoes",
+    "calsperg": 2.58,
+    "carbs": 0.56,
+    "fat": 0.03,
+    "protein": 0.14
+  },
+  {
+    "id": "1d1dd364-e822-4e5f-b363-c78a7967fd2e",
+    "name": "hot chocolate",
+    "calsperg": 0.77,
+    "carbs": 0.109,
+    "fat": 0.023,
+    "protein": 0.035
+  },
+  {
+    "id": "1f9ec4e6-cfbc-45e9-b008-688adf83a2f9",
+    "name": "white bread",
+    "calsperg": 2.649,
+    "carbs": 0.489,
+    "fat": 0.032,
+    "protein": 0.091
+  },
+  {
+    "id": "20c074db-aad6-4866-8da7-f021a8ddcd81",
+    "name": "tomatillo",
+    "calsperg": 0.32,
+    "carbs": 0.06,
+    "fat": 0.01,
+    "protein": 0.01
+  },
+  {
+    "id": "20f55421-2651-4729-bb7d-d2a97081cc6e",
+    "name": "salsa",
+    "calsperg": 0.29,
+    "carbs": 0.066,
+    "fat": 0.002,
+    "protein": 0.015
+  },
+  {
+    "id": "211b3895-f51d-4169-85b6-e56e0e872259",
+    "name": "calamari",
+    "calsperg": 1.751,
+    "carbs": 0.081,
+    "fat": 0.07,
+    "protein": 0.178
+  },
+  {
+    "id": "2156856d-3ddf-4c6a-8194-5e112ef44ebe",
+    "name": "deprecated",
+    "calsperg": 0.3,
+    "carbs": 0.076,
+    "fat": 0.001,
+    "protein": 0.006
+  },
+  {
+    "id": "218ee0cd-61bf-499d-a9cb-61c38b8508fd",
+    "name": "hard cider",
+    "calsperg": 0.56,
+    "carbs": 0.059,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "221a3ccf-47d9-4391-9711-4c1e3f2ebd09",
+    "name": "pumpkins",
+    "calsperg": 0.259,
+    "carbs": 0.065,
+    "fat": 0.001,
+    "protein": 0.01
+  },
+  {
+    "id": "22ce75ba-8716-418e-83e0-b49ffda700d3",
+    "name": "fennel",
+    "calsperg": 0.31,
+    "carbs": 0.07,
+    "fat": 0.002,
+    "protein": 0.012
+  },
+  {
+    "id": "235af1b1-e6f7-4de5-bb20-a455e5c45341",
+    "name": "pork",
+    "calsperg": 2.38,
+    "carbs": 0,
+    "fat": 0.14,
+    "protein": 0.26
+  },
+  {
+    "id": "236d5132-58a8-4b38-bccf-25da6110797f",
+    "name": "tea",
+    "calsperg": 0.01,
+    "carbs": 0.003,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "238a986b-1b45-4d16-8148-fc2962179b0e",
+    "name": "bread crumbs",
+    "calsperg": 3.95,
+    "carbs": 0.713,
+    "fat": 0.051,
+    "protein": 0.132
+  },
+  {
+    "id": "23aedf87-ad5b-4505-9f04-70dd9409d154",
+    "name": "seaweed",
+    "calsperg": 0.38,
+    "carbs": 0.084,
+    "fat": 0.003,
+    "protein": 0.024
+  },
+  {
+    "id": "244816cd-5ec2-47c9-ac11-77f8bbd409d7",
+    "name": "chili",
+    "calsperg": 0.4,
+    "carbs": 0.089,
+    "fat": 0.004,
+    "protein": 0.018
+  },
+  {
+    "id": "2465ceff-84e9-46f5-9257-e98b613ee3f5",
+    "name": "applesauce",
+    "calsperg": 0.68,
+    "carbs": 0.17,
+    "fat": 0.002,
+    "protein": 0.002
+  },
+  {
+    "id": "25308c41-1a83-4913-b19f-0106a870d92f",
+    "name": "carp",
+    "calsperg": 1.28,
+    "carbs": 0,
+    "fat": 0.027,
+    "protein": 0.26
+  },
+  {
+    "id": "2575148f-35d4-4295-a1d4-a47f42d5a2a1",
+    "name": "flour",
+    "calsperg": 3.641,
+    "carbs": 0.76,
+    "fat": 0.01,
+    "protein": 0.102
+  },
+  {
+    "id": "25f9b1ed-51a7-4147-bf31-6aab6859db54",
+    "name": "peas",
+    "calsperg": 0.84,
+    "carbs": 0.16,
+    "fat": 0.002,
+    "protein": 0.054
+  },
+  {
+    "id": "2667dc28-d2d7-496a-9866-e9c5bfb4ddd2",
+    "name": "gelatin",
+    "calsperg": 0.618,
+    "carbs": 0.141,
+    "fat": 0,
+    "protein": 0.012
+  },
+  {
+    "id": "267f24fd-feae-4a48-995a-378c4d4ab676",
+    "name": "energy drinks",
+    "calsperg": 0.459,
+    "carbs": 0.12,
+    "fat": 0.001,
+    "protein": 0.003
+  },
+  {
+    "id": "26a8a0bc-ebe9-42e6-a1fa-b0bc57033ede",
+    "name": "snow peas",
+    "calsperg": 0.81,
+    "carbs": 0.14,
+    "fat": 0.004,
+    "protein": 0.05
+  },
+  {
+    "id": "2787bc16-6650-4e4b-b2e4-c3d6d078a8bd",
+    "name": "ground turkey",
+    "calsperg": 2.58,
+    "carbs": 0,
+    "fat": 0.17,
+    "protein": 0.25
+  },
+  {
+    "id": "27b7a6ed-baa0-4b50-9e92-f525857ce8f1",
+    "name": "rum",
+    "calsperg": 2.313,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "27bd33eb-e679-453a-89b5-4e4e43849268",
+    "name": "focaccia",
+    "calsperg": 2.496,
+    "carbs": 0.355,
+    "fat": 0.079,
+    "protein": 0.089
+  },
+  {
+    "id": "27c752a9-eb19-4e13-8452-164329174633",
+    "name": "fruit salad",
+    "calsperg": 0.59,
+    "carbs": 0.15,
+    "fat": 0.003,
+    "protein": 0.008
+  },
+  {
+    "id": "27ecab20-e0c1-4eb2-8dfb-1d7a7e262a60",
+    "name": "fried rice",
+    "calsperg": 1.577,
+    "carbs": 0.299,
+    "fat": 0.022,
+    "protein": 0.047
+  },
+  {
+    "id": "281e4ad1-50d7-4fc5-8e22-adfd155e75fd",
+    "name": "ranch dressing",
+    "calsperg": 4.837,
+    "carbs": 0.068,
+    "fat": 0.505,
+    "protein": 0.01
+  },
+  {
+    "id": "288e509e-4713-493a-9b5e-9cabe111b671",
+    "name": "wild rice",
+    "calsperg": 1.19,
+    "carbs": 0.25,
+    "fat": 0.004,
+    "protein": 0.05
+  },
+  {
+    "id": "28d6a9f3-c5d9-4678-bcf5-8d173c859cf6",
+    "name": "maple syrup",
+    "calsperg": 2.6,
+    "carbs": 0.65,
+    "fat": 0.001,
+    "protein": 0.001
+  },
+  {
+    "id": "28f83bd3-974b-4af3-be0d-d228f7bd7106",
+    "name": "pasta",
+    "calsperg": 1.316,
+    "carbs": 0.248,
+    "fat": 0.011,
+    "protein": 0.051
+  },
+  {
+    "id": "29cc3320-3880-410e-8ae7-e107a5050ab4",
+    "name": "macaroni and cheese",
+    "calsperg": 1.64,
+    "carbs": 0.23,
+    "fat": 0.05,
+    "protein": 0.07
+  },
+  {
+    "id": "2a074675-0572-4c13-8a8c-6965a8664769",
+    "name": "pancakes",
+    "calsperg": 2.266,
+    "carbs": 0.284,
+    "fat": 0.096,
+    "protein": 0.063
+  },
+  {
+    "id": "2aeada67-7467-429c-a477-6254a80d9987",
+    "name": "orange with peel",
+    "calsperg": 0.294,
+    "carbs": 0.075,
+    "fat": 0.001,
+    "protein": 0.006
+  },
+  {
+    "id": "2b19571c-0922-43c5-916e-dea671cf814c",
+    "name": "eggplant",
+    "calsperg": 0.248,
+    "carbs": 0.059,
+    "fat": 0.002,
+    "protein": 0.01
+  },
+  {
+    "id": "2c4d5ae4-9798-467a-97de-d75d2379ad1f",
+    "name": "grape juice",
+    "calsperg": 0.67,
+    "carbs": 0.17,
+    "fat": 0.004,
+    "protein": 0.006
+  },
+  {
+    "id": "2c7e69b5-851b-493b-a52e-64547c02dcaf",
+    "name": "tuna salad",
+    "calsperg": 1.87,
+    "carbs": 0.092,
+    "fat": 0.092,
+    "protein": 0.162
+  },
+  {
+    "id": "2cb18358-0e87-4041-8744-11afaa7c8d60",
+    "name": "black beans",
+    "calsperg": 1.32,
+    "carbs": 0.237,
+    "fat": 0.005,
+    "protein": 0.089
+  },
+  {
+    "id": "2cf702a2-95bf-4d32-9f86-445c70196e1a",
+    "name": "olive oil",
+    "calsperg": 8.84,
+    "carbs": 0,
+    "fat": 1,
+    "protein": 0
+  },
+  {
+    "id": "2d329b26-0499-438a-bdf6-4c1a7945ec1d",
+    "name": "shrimp",
+    "calsperg": 0.99,
+    "carbs": 0.002,
+    "fat": 0.003,
+    "protein": 0.24
+  },
+  {
+    "id": "2d663585-ac79-49f8-8d0b-f908d617f720",
+    "name": "rice cakes",
+    "calsperg": 3.885,
+    "carbs": 0.81,
+    "fat": 0.028,
+    "protein": 0.082
+  },
+  {
+    "id": "2d80e816-f56d-4e3b-9db5-5637fe5a8477",
+    "name": "fudge",
+    "calsperg": 4.114,
+    "carbs": 0.762,
+    "fat": 0.103,
+    "protein": 0.024
+  },
+  {
+    "id": "2dcec516-e656-4e27-8941-96267b4ab451",
+    "name": "bacon",
+    "calsperg": 5.41,
+    "carbs": 0.014,
+    "fat": 0.42,
+    "protein": 0.37
+  },
+  {
+    "id": "2ed2bf95-dbbc-4735-8c02-c8ffb59aa5ad",
+    "name": "chicken wings",
+    "calsperg": 3.28,
+    "carbs": 0.098,
+    "fat": 0.24,
+    "protein": 0.17
+  },
+  {
+    "id": "2f315dc9-65fa-4bf6-83e9-f944fc3ebe0e",
+    "name": "corn on the cob",
+    "calsperg": 1.061,
+    "carbs": 0.22,
+    "fat": 0.024,
+    "protein": 0.031
+  },
+  {
+    "id": "2f3b334c-13ba-4e2e-a84e-0d306ab4bb5a",
+    "name": "tilapia",
+    "calsperg": 1.288,
+    "carbs": 0,
+    "fat": 0.027,
+    "protein": 0.261
+  },
+  {
+    "id": "2f9466f0-fca9-4070-96f2-f7375b88cc04",
+    "name": "dark chocolate",
+    "calsperg": 5.75,
+    "carbs": 0.27,
+    "fat": 0.46,
+    "protein": 0.06
+  },
+  {
+    "id": "2f97c984-aacd-404b-9e15-154b6013fda6",
+    "name": "bean(seed)",
+    "calsperg": 1.4,
+    "carbs": 0.24,
+    "fat": 0.006,
+    "protein": 0.09
+  },
+  {
+    "id": "302997a1-4fff-4298-961a-d44489562ad1",
+    "name": "cashews",
+    "calsperg": 5.534,
+    "carbs": 0.309,
+    "fat": 0.432,
+    "protein": 0.178
+  },
+  {
+    "id": "313546ac-d093-4eaa-9c8f-3f8550a86957",
+    "name": "macadamia nuts",
+    "calsperg": 7.188,
+    "carbs": 0.139,
+    "fat": 0.75,
+    "protein": 0.079
+  },
+  {
+    "id": "31a72fa1-0c8e-4dd4-a87e-3d87826619b4",
+    "name": "herring",
+    "calsperg": 0.859,
+    "carbs": 0.032,
+    "fat": 0.059,
+    "protein": 0.047
+  },
+  {
+    "id": "31c16c35-b926-42fa-beb0-180d3117f9cf",
+    "name": "chow mein",
+    "calsperg": 4.611,
+    "carbs": 0.676,
+    "fat": 0.184,
+    "protein": 0.108
+  },
+  {
+    "id": "32141d0d-5128-4074-b2fd-1aeeadb6e66c",
+    "name": "shallots",
+    "calsperg": 0.2,
+    "carbs": 0.033,
+    "fat": 0.002,
+    "protein": 0.015
+  },
+  {
+    "id": "32a2717e-8c08-49c5-931b-7e083214430e",
+    "name": "bologna",
+    "calsperg": 2.452,
+    "carbs": 0.007,
+    "fat": 0.206,
+    "protein": 0.151
+  },
+  {
+    "id": "335f34f9-3585-42b3-8a5d-5241af099905",
+    "name": "pies",
+    "calsperg": 2.367,
+    "carbs": 0.345,
+    "fat": 0.111,
+    "protein": 0.019
+  },
+  {
+    "id": "33be1a64-7250-4538-82f3-81882d12ae4d",
+    "name": "snapper",
+    "calsperg": 1.28,
+    "carbs": 0,
+    "fat": 0.017,
+    "protein": 0.26
+  },
+  {
+    "id": "33ee29b7-2bba-4b78-8ae2-992a052247cb",
+    "name": "hard boiled eggs",
+    "calsperg": 1.555,
+    "carbs": 0.012,
+    "fat": 0.105,
+    "protein": 0.125
+  },
+  {
+    "id": "33f5c0cf-ca70-4e6e-85e2-5c4c60713e51",
+    "name": "arugula",
+    "calsperg": 0.25,
+    "carbs": 0.037,
+    "fat": 0.007,
+    "protein": 0.026
+  },
+  {
+    "id": "343e3f11-d2b4-45b9-a50e-359806c82354",
+    "name": "challah",
+    "calsperg": 2.87,
+    "carbs": 0.48,
+    "fat": 0.06,
+    "protein": 0.095
+  },
+  {
+    "id": "34aaf341-47b4-4cb5-b0c2-b0ac968a702a",
+    "name": "root beer",
+    "calsperg": 0.415,
+    "carbs": 0.108,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "34c77fcc-0941-4ae7-b192-aa0bd79e824c",
+    "name": "protein powder",
+    "calsperg": 4,
+    "carbs": 0.1,
+    "fat": 0.033,
+    "protein": 0.8
+  },
+  {
+    "id": "3501dac7-9950-4308-9d78-dfc8b4510b61",
+    "name": "hot dogs",
+    "calsperg": 2.902,
+    "carbs": 0.042,
+    "fat": 0.255,
+    "protein": 0.098
+  },
+  {
+    "id": "3535793c-8a9e-45fb-8a46-f8a51fc37a6d",
+    "name": "chickpeas",
+    "calsperg": 1.64,
+    "carbs": 0.27,
+    "fat": 0.026,
+    "protein": 0.09
+  },
+  {
+    "id": "365252b4-9144-4c76-ae17-91efdc88a376",
+    "name": "pinto beans",
+    "calsperg": 1.43,
+    "carbs": 0.26,
+    "fat": 0.007,
+    "protein": 0.09
+  },
+  {
+    "id": "36dc2ebf-3f43-411a-8402-21f34fff90d2",
+    "name": "vodka",
+    "calsperg": 2.306,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "36ef1464-3c83-4182-a862-a37d8a41d1e7",
+    "name": "corn",
+    "calsperg": 0.96,
+    "carbs": 0.21,
+    "fat": 0.015,
+    "protein": 0.034
+  },
+  {
+    "id": "374d45a8-2dce-45d2-a423-684fe7697644",
+    "name": "corn starch",
+    "calsperg": 3.8,
+    "carbs": 0.914,
+    "fat": 0.0005,
+    "protein": 0.003
+  },
+  {
+    "id": "3988c36d-416d-4c52-bf5d-931f8dcd27f2",
+    "name": "lobster",
+    "calsperg": 1.43,
+    "carbs": 0.031,
+    "fat": 0.019,
+    "protein": 0.26
+  },
+  {
+    "id": "3a2fd45d-7a89-4a68-b591-d27b88c4bab4",
+    "name": "grapefruit juice",
+    "calsperg": 0.389,
+    "carbs": 0.091,
+    "fat": 0.001,
+    "protein": 0.005
+  },
+  {
+    "id": "3adc3d40-ea1b-473c-b260-9bf660335604",
+    "name": "greek salad",
+    "calsperg": 1.13,
+    "carbs": 0.047,
+    "fat": 0.094,
+    "protein": 0.032
+  },
+  {
+    "id": "3afc1281-1733-465e-8353-8857f4cbffa8",
+    "name": "kidney beans",
+    "calsperg": 3.33,
+    "carbs": 0.6,
+    "fat": 0.008,
+    "protein": 0.24
+  },
+  {
+    "id": "3b2b34d8-7f12-437e-9e1d-d48c01feb126",
+    "name": "gravy",
+    "calsperg": 0.791,
+    "carbs": 0.052,
+    "fat": 0.059,
+    "protein": 0.02
+  },
+  {
+    "id": "3b842316-d4d8-4d1d-8f4f-e532ecaa3cb3",
+    "name": "ground beef",
+    "calsperg": 3.321,
+    "carbs": 0,
+    "fat": 0.295,
+    "protein": 0.142
+  },
+  {
+    "id": "3bb66e85-2947-42d1-a080-974eb6884a79",
+    "name": "sunflower seeds",
+    "calsperg": 5.46,
+    "carbs": 0.15,
+    "fat": 0.5,
+    "protein": 0.19
+  },
+  {
+    "id": "3d14ccd7-4f17-47fc-b279-318d12d689a2",
+    "name": "bison",
+    "calsperg": 1.79,
+    "carbs": 0,
+    "fat": 0.08,
+    "protein": 0.25
+  },
+  {
+    "id": "3dec5de3-4140-4c52-86c9-a92acf34d5d5",
+    "name": "feta cheese",
+    "calsperg": 2.641,
+    "carbs": 0.042,
+    "fat": 0.211,
+    "protein": 0.138
+  },
+  {
+    "id": "401aa5c5-cc30-499c-b4a9-092db5f36c0a",
+    "name": "tomato soup",
+    "calsperg": 0.35,
+    "carbs": 0.074,
+    "fat": 0.002,
+    "protein": 0.007
+  },
+  {
+    "id": "4107b257-8c49-4cf4-ae8a-7f260fc0680f",
+    "name": "chicken nuggets",
+    "calsperg": 3.07,
+    "carbs": 0.15,
+    "fat": 0.2,
+    "protein": 0.16
+  },
+  {
+    "id": "41091582-fd29-4d31-882b-5e2b1a41ee17",
+    "name": "miso soup",
+    "calsperg": 0.245,
+    "carbs": 0.015,
+    "fat": 0.012,
+    "protein": 0.024
+  },
+  {
+    "id": "4160d044-0ead-41b1-b4df-82f492cba542",
+    "name": "french toast",
+    "calsperg": 2.292,
+    "carbs": 0.248,
+    "fat": 0.109,
+    "protein": 0.078
+  },
+  {
+    "id": "41d172ad-593b-4c80-a3d9-3f9125270803",
+    "name": "broccoli",
+    "calsperg": 0.35,
+    "carbs": 0.07,
+    "fat": 0.004,
+    "protein": 0.024
+  },
+  {
+    "id": "43808e31-9000-4a11-bbad-5ee127d72b73",
+    "name": "omelets",
+    "calsperg": 1.54,
+    "carbs": 0.006,
+    "fat": 0.117,
+    "protein": 0.104
+  },
+  {
+    "id": "43b354e2-4492-4b79-afd2-49bf0b515f59",
+    "name": "cucumbers",
+    "calsperg": 0.1,
+    "carbs": 0.02,
+    "fat": 0,
+    "protein": 0.01
+  },
+  {
+    "id": "43dc2f41-ab62-4179-9ee0-4edfbb3263d7",
+    "name": "potato bread",
+    "calsperg": 2.658,
+    "carbs": 0.469,
+    "fat": 0.031,
+    "protein": 0.128
+  },
+  {
+    "id": "441cfac1-ac4d-4293-b929-785e8cf58977",
+    "name": "tortilla",
+    "calsperg": 2.18,
+    "carbs": 0.45,
+    "fat": 0.029,
+    "protein": 0.06
+  },
+  {
+    "id": "45282713-04ab-457a-a581-2e5c8ffd07ec",
+    "name": "mangos",
+    "calsperg": 0.606,
+    "carbs": 0.15,
+    "fat": 0.004,
+    "protein": 0.008
+  },
+  {
+    "id": "455c2d04-86c5-4bee-b5c3-4d6e85083cb5",
+    "name": "almonds",
+    "calsperg": 5.781,
+    "carbs": 0.227,
+    "fat": 0.495,
+    "protein": 0.224
+  },
+  {
+    "id": "45c36512-deb9-4d61-b85c-133955c79d61",
+    "name": "parmesan cheese",
+    "calsperg": 4.307,
+    "carbs": 0.042,
+    "fat": 0.286,
+    "protein": 0.384
+  },
+  {
+    "id": "45d0ba09-4669-4ba9-a598-6acb93e87368",
+    "name": "couscous",
+    "calsperg": 1.12,
+    "carbs": 0.23,
+    "fat": 0.002,
+    "protein": 0.038
+  },
+  {
+    "id": "466e028b-c3d9-452f-9adc-9e2f482cda6b",
+    "name": "pasta sauce",
+    "calsperg": 0.292,
+    "carbs": 0.069,
+    "fat": 0.002,
+    "protein": 0.013
+  },
+  {
+    "id": "46b60bb2-760a-4e41-929d-43d8be194487",
+    "name": "strudels",
+    "calsperg": 3.182,
+    "carbs": 0.5,
+    "fat": 0.108,
+    "protein": 0.05
+  },
+  {
+    "id": "46d18451-6f59-4ff9-8109-fae1f9bc07e7",
+    "name": "eel",
+    "calsperg": 2.36,
+    "carbs": 0,
+    "fat": 0.15,
+    "protein": 0.24
+  },
+  {
+    "id": "46ee26ca-a499-494d-be1c-c738d3fef137",
+    "name": "new",
+    "calsperg": 0.1,
+    "carbs": 0.2,
+    "fat": 0.3,
+    "protein": 0.4
+  },
+  {
+    "id": "471a528b-8db6-4071-8aa4-4ee935904e9e",
+    "name": "brisket",
+    "calsperg": 1.552,
+    "carbs": 0,
+    "fat": 0.072,
+    "protein": 0.21
+  },
+  {
+    "id": "47a007ad-4634-4ea8-aa7f-60d4b30d26aa",
+    "name": "scones",
+    "calsperg": 3.525,
+    "carbs": 0.447,
+    "fat": 0.162,
+    "protein": 0.07
+  },
+  {
+    "id": "48feb146-432e-4a03-846c-711123df5f89",
+    "name": "tortellini",
+    "calsperg": 3.072,
+    "carbs": 0.47,
+    "fat": 0.072,
+    "protein": 0.138
+  },
+  {
+    "id": "497c8ba5-9b1f-4e4f-8c61-26b34a50ccc6",
+    "name": "quinoa",
+    "calsperg": 1.2,
+    "carbs": 0.21,
+    "fat": 0.019,
+    "protein": 0.044
+  },
+  {
+    "id": "49afdaaa-c342-4f0a-9b74-56ed3b9e06ad",
+    "name": "hash browns",
+    "calsperg": 3.26,
+    "carbs": 0.32,
+    "fat": 0.22,
+    "protein": 0.026
+  },
+  {
+    "id": "49e593b0-54f1-4100-b4ae-50956877cf41",
+    "name": "whole wheat bread",
+    "calsperg": 2.468,
+    "carbs": 0.421,
+    "fat": 0.033,
+    "protein": 0.13
+  },
+  {
+    "id": "4a6920ad-ccc0-42fc-a90e-a3aff8dabc33",
+    "name": "meatballs",
+    "calsperg": 2.86,
+    "carbs": 0.081,
+    "fat": 0.22,
+    "protein": 0.14
+  },
+  {
+    "id": "4b8c8171-8dcf-4c6c-883f-35672050cec2",
+    "name": "salmon",
+    "calsperg": 1.78,
+    "carbs": 0,
+    "fat": 0.08,
+    "protein": 0.24
+  },
+  {
+    "id": "4bc17db7-99d5-4d18-ab0f-1ce313592312",
+    "name": "endive",
+    "calsperg": 0.17,
+    "carbs": 0.034,
+    "fat": 0.002,
+    "protein": 0.013
+  },
+  {
+    "id": "4bce13d4-3d4e-477f-a2ed-2340ed2af530",
+    "name": "asparagus",
+    "calsperg": 0.204,
+    "carbs": 0.039,
+    "fat": 0.001,
+    "protein": 0.022
+  },
+  {
+    "id": "4c1ac0c9-8439-4b22-8c43-49a58990468f",
+    "name": "pecan pie",
+    "calsperg": 4.123,
+    "carbs": 0.525,
+    "fat": 0.218,
+    "protein": 0.049
+  },
+  {
+    "id": "4c24827f-6cc1-46a8-ad5f-40adaed1c6bb",
+    "name": "wheat beer",
+    "calsperg": 0.43,
+    "carbs": 0.036,
+    "fat": 0,
+    "protein": 0.005
+  },
+  {
+    "id": "4c36b5c9-6314-4b18-8d95-29bfc79708f0",
+    "name": "fried eggs",
+    "calsperg": 1.96,
+    "carbs": 0.008,
+    "fat": 0.15,
+    "protein": 0.14
+  },
+  {
+    "id": "4c3dfb4b-1fcf-4339-8e73-1a9fab4b81ff",
+    "name": "tortilla chips",
+    "calsperg": 4.642,
+    "carbs": 0.737,
+    "fat": 0.153,
+    "protein": 0.086
+  },
+  {
+    "id": "4c75f7c0-ea02-45ba-9e71-05908caec670",
+    "name": "mussels",
+    "calsperg": 1.718,
+    "carbs": 0.07,
+    "fat": 0.045,
+    "protein": 0.238
+  },
+  {
+    "id": "4cf34e03-5d85-4bdd-9548-fe006037c719",
+    "name": "provolone cheese",
+    "calsperg": 3.519,
+    "carbs": 0.022,
+    "fat": 0.266,
+    "protein": 0.253
+  },
+  {
+    "id": "4d5f1be9-c6c8-4132-b32a-5fe7661167a5",
+    "name": "green onions",
+    "calsperg": 0.32,
+    "carbs": 0.07,
+    "fat": 0.002,
+    "protein": 0.018
+  },
+  {
+    "id": "4da645f9-6357-4427-bb17-6d09ac050335",
+    "name": "salad dressing",
+    "calsperg": 4.799,
+    "carbs": 0.165,
+    "fat": 0.467,
+    "protein": 0.008
+  },
+  {
+    "id": "4df71c2f-f9f5-43b6-8e11-e91192fa21c6",
+    "name": "burgers",
+    "calsperg": 2.95,
+    "carbs": 0.241,
+    "fat": 0.141,
+    "protein": 0.168
+  },
+  {
+    "id": "4e45ce6b-9269-473e-88d1-c0d1c1868bc4",
+    "name": "swiss cheese",
+    "calsperg": 3.799,
+    "carbs": 0.052,
+    "fat": 0.282,
+    "protein": 0.276
+  },
+  {
+    "id": "4e4b5606-73d5-4d62-8d65-bc79c72f2c04",
+    "name": "butter",
+    "calsperg": 7.17,
+    "carbs": 0.001,
+    "fat": 0.81,
+    "protein": 0.008
+  },
+  {
+    "id": "4e6e7f1d-c206-4000-a0b8-548554592474",
+    "name": "hummus",
+    "calsperg": 1.66,
+    "carbs": 0.14,
+    "fat": 0.096,
+    "protein": 0.079
+  },
+  {
+    "id": "4e9a0f5f-c9b3-4a4e-9246-a331897ca054",
+    "name": "lager",
+    "calsperg": 0.43,
+    "carbs": 0.036,
+    "fat": 0,
+    "protein": 0.005
+  },
+  {
+    "id": "4f7701cf-816d-4ebf-b176-87d39f0b66bf",
+    "name": "yogurt",
+    "calsperg": 0.589,
+    "carbs": 0.036,
+    "fat": 0.004,
+    "protein": 0.1
+  },
+  {
+    "id": "4f7a0edc-11ee-426d-bfad-b4170dc73c73",
+    "name": "soy milk",
+    "calsperg": 0.534,
+    "carbs": 0.061,
+    "fat": 0.017,
+    "protein": 0.033
+  },
+  {
+    "id": "51910f9b-46a2-479b-8e5f-c1d66f845581",
+    "name": "chicken thighs",
+    "calsperg": 1.772,
+    "carbs": 0,
+    "fat": 0.083,
+    "protein": 0.239
+  },
+  {
+    "id": "51b5d9a9-d896-42da-b9a5-4f6867d93506",
+    "name": "brussels sprouts",
+    "calsperg": 0.43,
+    "carbs": 0.09,
+    "fat": 0.003,
+    "protein": 0.034
+  },
+  {
+    "id": "5225b877-ab33-46f3-bd86-eca7025552b1",
+    "name": "paella",
+    "calsperg": 1.834,
+    "carbs": 0.141,
+    "fat": 0.091,
+    "protein": 0.104
+  },
+  {
+    "id": "522b90a5-391a-4136-b484-2ca9f8c2cef5",
+    "name": "apple juice",
+    "calsperg": 0.46,
+    "carbs": 0.11,
+    "fat": 0.001,
+    "protein": 0.001
+  },
+  {
+    "id": "523ced09-1c04-41db-b29b-03542d3171ea",
+    "name": "olives",
+    "calsperg": 1.15,
+    "carbs": 0.063,
+    "fat": 0.107,
+    "protein": 0.008
+  },
+  {
+    "id": "52706d11-edc9-4ec1-8fa5-5867ef5ca0c3",
+    "name": "berries",
+    "calsperg": 0.57,
+    "carbs": 0.14,
+    "fat": 0.003,
+    "protein": 0.007
+  },
+  {
+    "id": "52755d1d-6ad0-427d-8056-028cd4130d4a",
+    "name": "mahi mahi",
+    "calsperg": 1.09,
+    "carbs": 0,
+    "fat": 0.009,
+    "protein": 0.24
+  },
+  {
+    "id": "5289c497-efe1-4ca6-ab89-6f894f061705",
+    "name": "chicken apple sausage",
+    "calsperg": 1.6,
+    "carbs": 0.03,
+    "fat": 0.1,
+    "protein": 0.14
+  },
+  {
+    "id": "5379f170-8c7c-471d-b854-a6d482300d22",
+    "name": "camembert cheese",
+    "calsperg": 3,
+    "carbs": 0.005,
+    "fat": 0.24,
+    "protein": 0.2
+  },
+  {
+    "id": "54128a2e-3775-4178-b545-cc0de40bfcf1",
+    "name": "turkey breast",
+    "calsperg": 1.891,
+    "carbs": 0,
+    "fat": 0.071,
+    "protein": 0.288
+  },
+  {
+    "id": "543a28db-05c1-4580-af64-d11cf4572b11",
+    "name": "turnover",
+    "calsperg": 1.781,
+    "carbs": 0.256,
+    "fat": 0.081,
+    "protein": 0.015
+  },
+  {
+    "id": "54c6f752-a347-495d-9d2b-b8958f910379",
+    "name": "water chestnuts",
+    "calsperg": 0.3,
+    "carbs": 0.068,
+    "fat": 0.001,
+    "protein": 0.009
+  },
+  {
+    "id": "55b606f2-a094-4d12-9e6d-37a7ab120a76",
+    "name": "falafel",
+    "calsperg": 3.341,
+    "carbs": 0.307,
+    "fat": 0.178,
+    "protein": 0.133
+  },
+  {
+    "id": "56ae010a-ee12-4bbc-9cc8-d1504415c358",
+    "name": "corn nuts",
+    "calsperg": 4.36,
+    "carbs": 0.72,
+    "fat": 0.14,
+    "protein": 0.09
+  },
+  {
+    "id": "57866a72-d534-413d-a5e9-41366baad327",
+    "name": "fish",
+    "calsperg": 0.9,
+    "carbs": 0,
+    "fat": 0.13,
+    "protein": 0.184
+  },
+  {
+    "id": "579f0d7b-fcb6-41e6-a8d8-ec88a6f73a0c",
+    "name": "collards",
+    "calsperg": 0.313,
+    "carbs": 0.053,
+    "fat": 0.006,
+    "protein": 0.03
+  },
+  {
+    "id": "57b4dbd7-b71c-41bd-9e7e-6b8870c61f66",
+    "name": "orange",
+    "calsperg": 0.47,
+    "carbs": 0.12,
+    "fat": 0.001,
+    "protein": 0.009
+  },
+  {
+    "id": "58509388-e384-4cf0-afeb-8364e919a32b",
+    "name": "soy sausage",
+    "calsperg": 2.02,
+    "carbs": 0.063,
+    "fat": 0.144,
+    "protein": 0.16
+  },
+  {
+    "id": "59a05fab-0a93-4f89-b69f-8a4a92fbd40e",
+    "name": "pretzels",
+    "calsperg": 3.803,
+    "carbs": 0.804,
+    "fat": 0.026,
+    "protein": 0.101
+  },
+  {
+    "id": "5a30d753-f9fb-4d02-8c24-571a9403ec28",
+    "name": "gorgonzola cheese",
+    "calsperg": 3.53,
+    "carbs": 0.023,
+    "fat": 0.29,
+    "protein": 0.21
+  },
+  {
+    "id": "5ae1072c-9296-408e-b21a-05525d51fcca",
+    "name": "kimchi",
+    "calsperg": 0.3,
+    "carbs": 0.057,
+    "fat": 0.001,
+    "protein": 0.016
+  },
+  {
+    "id": "5b147fe8-b4e2-4168-9dad-3fa428325fa8",
+    "name": "bell peppers",
+    "calsperg": 0.4,
+    "carbs": 0.09,
+    "fat": 0.002,
+    "protein": 0.02
+  },
+  {
+    "id": "5bd8bec7-51d2-4c10-81ba-9347f0a3ff03",
+    "name": "potato chips",
+    "calsperg": 5.36,
+    "carbs": 0.53,
+    "fat": 0.35,
+    "protein": 0.07
+  },
+  {
+    "id": "5c1162eb-c023-4808-9ff7-63926fe99efc",
+    "name": "soy yogurt",
+    "calsperg": 1.014,
+    "carbs": 0.173,
+    "fat": 0.019,
+    "protein": 0.037
+  },
+  {
+    "id": "5c446a97-5692-49c6-9856-b0187b12dc09",
+    "name": "light beer",
+    "calsperg": 0.29,
+    "carbs": 0.016,
+    "fat": 0,
+    "protein": 0.002
+  },
+  {
+    "id": "5c6e71a4-08f0-4d5f-9e50-293897ffa0f0",
+    "name": "ice creams",
+    "calsperg": 2.07,
+    "carbs": 0.24,
+    "fat": 0.11,
+    "protein": 0.035
+  },
+  {
+    "id": "5cf55f81-3f52-4da6-95da-38528eaa0289",
+    "name": "brazil nuts",
+    "calsperg": 6.574,
+    "carbs": 0.121,
+    "fat": 0.663,
+    "protein": 0.142
+  },
+  {
+    "id": "5dee13d1-92f9-46ea-b236-d77bed642d6e",
+    "name": "cabbage",
+    "calsperg": 0.21,
+    "carbs": 0.032,
+    "fat": 0.005,
+    "protein": 0.013
+  },
+  {
+    "id": "5e5c22a5-d543-4493-a497-42aac1576578",
+    "name": "cream",
+    "calsperg": 3.363,
+    "carbs": 0.027,
+    "fat": 0.366,
+    "protein": 0.028
+  },
+  {
+    "id": "5e8cc024-6bc7-4ab8-bb20-bc1321817d5d",
+    "name": "chicken drumsticks",
+    "calsperg": 1.84,
+    "carbs": 0,
+    "fat": 0.09,
+    "protein": 0.24
+  },
+  {
+    "id": "5e9196ee-53b4-4bdc-93ae-da89bfa604c5",
+    "name": "granola bars",
+    "calsperg": 4.712,
+    "carbs": 0.653,
+    "fat": 0.2,
+    "protein": 0.1
+  },
+  {
+    "id": "5ec81f1b-285c-49e2-a64d-f031f39fe5a4",
+    "name": "tabouli",
+    "calsperg": 0.85,
+    "carbs": 0.107,
+    "fat": 0.045,
+    "protein": 0.021
+  },
+  {
+    "id": "5ed37b14-4233-4374-8a36-e2cd9e783297",
+    "name": "polenta",
+    "calsperg": 3.7,
+    "carbs": 0.79,
+    "fat": 0.018,
+    "protein": 0.07
+  },
+  {
+    "id": "5f3cf7f6-a8a1-4349-9c70-41cf24665efd",
+    "name": "deprecated",
+    "calsperg": 0.93,
+    "carbs": 0.21,
+    "fat": 0.001,
+    "protein": 0.025
+  },
+  {
+    "id": "5f8feb4d-f3c7-488d-8a62-0354f421f62e",
+    "name": "orange juice",
+    "calsperg": 0.47,
+    "carbs": 0.11,
+    "fat": 0.001,
+    "protein": 0.007
+  },
+  {
+    "id": "5fae24dd-01e4-4fce-833f-237462e0f410",
+    "name": "milk shakes",
+    "calsperg": 1.121,
+    "carbs": 0.18,
+    "fat": 0.029,
+    "protein": 0.039
+  },
+  {
+    "id": "60364cb9-28ec-4ce6-b841-e8f5734f50a4",
+    "name": "sweet rolls",
+    "calsperg": 2.73,
+    "carbs": 0.46,
+    "fat": 0.063,
+    "protein": 0.086
+  },
+  {
+    "id": "605e407b-5e21-4cad-b258-0f57c767765c",
+    "name": "oysters",
+    "calsperg": 1.989,
+    "carbs": 0.117,
+    "fat": 0.128,
+    "protein": 0.088
+  },
+  {
+    "id": "60a3f942-2bc2-400f-9d7e-81e817c0e2a9",
+    "name": "coconut milk",
+    "calsperg": 2.3,
+    "carbs": 0.06,
+    "fat": 0.24,
+    "protein": 0.023
+  },
+  {
+    "id": "60dbdfac-c1f3-4642-b0d0-6fa4e47dbf8c",
+    "name": "wraps",
+    "calsperg": 3.25,
+    "carbs": 0.56,
+    "fat": 0.071,
+    "protein": 0.087
+  },
+  {
+    "id": "6110759c-3bd7-41c9-9445-15d026f8d88f",
+    "name": "tomatoes",
+    "calsperg": 0.34,
+    "carbs": 0.068,
+    "fat": 0.007,
+    "protein": 0.007
+  },
+  {
+    "id": "6145f3d1-2ae4-4863-9180-954da69d31fa",
+    "name": "white rice",
+    "calsperg": 1.3,
+    "carbs": 0.28,
+    "fat": 0.003,
+    "protein": 0.027
+  },
+  {
+    "id": "61be2915-0870-4d6c-a198-38aa37d3a8f8",
+    "name": "celery root",
+    "calsperg": 0.42,
+    "carbs": 0.092,
+    "fat": 0.003,
+    "protein": 0.015
+  },
+  {
+    "id": "620488fd-26b2-492b-a5a2-76407471ad0b",
+    "name": "crepes",
+    "calsperg": 1.65,
+    "carbs": 0.16,
+    "fat": 0.083,
+    "protein": 0.059
+  },
+  {
+    "id": "6283ab5b-a55c-460e-b046-1ddfa6aaac0b",
+    "name": "pomegranate",
+    "calsperg": 0.83,
+    "carbs": 0.19,
+    "fat": 0.012,
+    "protein": 0.017
+  },
+  {
+    "id": "637d9e9b-0851-417d-9ddf-a650effe7704",
+    "name": "pecans",
+    "calsperg": 6.9,
+    "carbs": 0.14,
+    "fat": 0.72,
+    "protein": 0.09
+  },
+  {
+    "id": "638aa3da-04c1-4e48-920e-e07edc373779",
+    "name": "sandwich cookies",
+    "calsperg": 4.697,
+    "carbs": 0.704,
+    "fat": 0.202,
+    "protein": 0.056
+  },
+  {
+    "id": "63edf216-9b8b-4ef2-ba25-ef0f1ee814f4",
+    "name": "steak",
+    "calsperg": 2.71,
+    "carbs": 0,
+    "fat": 0.19,
+    "protein": 0.25
+  },
+  {
+    "id": "6421fc50-8283-484b-afb9-426b10901128",
+    "name": "marshmallows",
+    "calsperg": 3.18,
+    "carbs": 0.81,
+    "fat": 0.002,
+    "protein": 0.018
+  },
+  {
+    "id": "64306899-53b7-44c1-8b9f-824a878cccd6",
+    "name": "pine nuts",
+    "calsperg": 6.646,
+    "carbs": 0.126,
+    "fat": 0.685,
+    "protein": 0.132
+  },
+  {
+    "id": "64a8ece8-6106-435a-9c59-7bd06f5ab581",
+    "name": "green beans",
+    "calsperg": 0.31,
+    "carbs": 0.07,
+    "fat": 0.001,
+    "protein": 0.018
+  },
+  {
+    "id": "64aaa605-d0d4-4544-998e-9365faebd7a2",
+    "name": "one",
+    "calsperg": 0.1,
+    "carbs": 0.1,
+    "fat": 0.1,
+    "protein": 0.1
+  },
+  {
+    "id": "64f807f2-2bd6-43de-a4f6-69f070cf8895",
+    "name": "deprecated",
+    "calsperg": 0.905,
+    "carbs": 0.234,
+    "fat": 0.003,
+    "protein": 0.011
+  },
+  {
+    "id": "653e2aed-eb5c-431b-bb2a-b5746190e081",
+    "name": "clams",
+    "calsperg": 1.48,
+    "carbs": 0.051,
+    "fat": 0.02,
+    "protein": 0.255
+  },
+  {
+    "id": "65829173-167b-4cd3-a125-8d46a9a49b4a",
+    "name": "cheeseburgers",
+    "calsperg": 2.69,
+    "carbs": 0.2,
+    "fat": 0.14,
+    "protein": 0.15
+  },
+  {
+    "id": "65a310b7-407c-4a9f-8fdc-99056edadb65",
+    "name": "crab",
+    "calsperg": 0.83,
+    "carbs": 0,
+    "fat": 0.007,
+    "protein": 0.18
+  },
+  {
+    "id": "65ee93ed-d1b5-438f-99f2-c75c05330ff1",
+    "name": "capers",
+    "calsperg": 0.23,
+    "carbs": 0.049,
+    "fat": 0.009,
+    "protein": 0.024
+  },
+  {
+    "id": "66a80644-7881-4a08-8c32-f6411cf7b8e8",
+    "name": "plums",
+    "calsperg": 0.457,
+    "carbs": 0.115,
+    "fat": 0.003,
+    "protein": 0.007
+  },
+  {
+    "id": "680c293d-903f-4d26-a01d-d138070f6e2e",
+    "name": "spinach (raw)",
+    "calsperg": 0.23,
+    "carbs": 0.036,
+    "fat": 0.004,
+    "protein": 0.029
+  },
+  {
+    "id": "681ee3c6-6960-43fc-8e59-2cf4a9e068db",
+    "name": "pepper",
+    "calsperg": 0.4,
+    "carbs": 0.093,
+    "fat": 0.002,
+    "protein": 0.02
+  },
+  {
+    "id": "687710c7-ba43-4a68-9b43-b6bc162f46f4",
+    "name": "buns",
+    "calsperg": 2.79,
+    "carbs": 0.5,
+    "fat": 0.039,
+    "protein": 0.098
+  },
+  {
+    "id": "69612f83-bf67-404e-9242-4831e8b3e31e",
+    "name": "wheat bread",
+    "calsperg": 2.468,
+    "carbs": 0.421,
+    "fat": 0.033,
+    "protein": 0.13
+  },
+  {
+    "id": "69d288bf-2169-42c4-ac71-5da2487ab625",
+    "name": "oatmeal",
+    "calsperg": 0.68,
+    "carbs": 0.12,
+    "fat": 0.014,
+    "protein": 0.024
+  },
+  {
+    "id": "6a38cba6-06af-49dd-9705-f01f1577f013",
+    "name": "cauliflower",
+    "calsperg": 0.25,
+    "carbs": 0.05,
+    "fat": 0.003,
+    "protein": 0.018
+  },
+  {
+    "id": "6b9986b0-1909-4f00-87dd-a2c782c16bc4",
+    "name": "almond milk",
+    "calsperg": 0.23,
+    "carbs": 0.032,
+    "fat": 0.01,
+    "protein": 0.004
+  },
+  {
+    "id": "6c0db677-d4d8-491e-919c-c2c1f996fb1a",
+    "name": "goulash",
+    "calsperg": 1.07,
+    "carbs": 0.1,
+    "fat": 0.039,
+    "protein": 0.076
+  },
+  {
+    "id": "6c2a7783-208d-437d-b49b-cd2feca2a6e3",
+    "name": "half and half",
+    "calsperg": 1.3,
+    "carbs": 0.043,
+    "fat": 0.12,
+    "protein": 0.03
+  },
+  {
+    "id": "6c46c026-6ab9-46ca-9db6-1ad9ed0fa9ea",
+    "name": "red potatoes",
+    "calsperg": 0.89,
+    "carbs": 0.2,
+    "fat": 0.001,
+    "protein": 0.023
+  },
+  {
+    "id": "6c4f41e6-6c79-4d20-9e9e-14c21fe7e60e",
+    "name": "croissants",
+    "calsperg": 4.062,
+    "carbs": 0.459,
+    "fat": 0.212,
+    "protein": 0.08
+  },
+  {
+    "id": "6c994c34-b73c-4aaf-827d-2d2a3c927237",
+    "name": "english muffins",
+    "calsperg": 2.355,
+    "carbs": 0.458,
+    "fat": 0.018,
+    "protein": 0.078
+  },
+  {
+    "id": "6d0d486c-916d-4a5f-8b1f-686f675dea91",
+    "name": "roast chicken",
+    "calsperg": 2.237,
+    "carbs": 0,
+    "fat": 0.13,
+    "protein": 0.235
+  },
+  {
+    "id": "6d62d2aa-fe9c-4f01-b77b-48bbde7c3565",
+    "name": "egg salad",
+    "calsperg": 2.12,
+    "carbs": 0.024,
+    "fat": 0.184,
+    "protein": 0.081
+  },
+  {
+    "id": "6df6fdfc-47a0-42d2-a00c-048d844286f0",
+    "name": "cranberries",
+    "calsperg": 0.46,
+    "carbs": 0.12,
+    "fat": 0.001,
+    "protein": 0.005
+  },
+  {
+    "id": "6ef845b6-8a7f-485a-8625-8dced3331097",
+    "name": "mustard greens",
+    "calsperg": 0.27,
+    "carbs": 0.047,
+    "fat": 0.004,
+    "protein": 0.029
+  },
+  {
+    "id": "6f436a9c-6365-47dd-81d0-88bfa2bb5bc8",
+    "name": "caesar dressing",
+    "calsperg": 0.441,
+    "carbs": 0.043,
+    "fat": 0.021,
+    "protein": 0.032
+  },
+  {
+    "id": "6fd30522-701e-4f50-8d8a-ef6cc4def1d3",
+    "name": "spreads",
+    "calsperg": 2.357,
+    "carbs": 0.12,
+    "fat": 0.171,
+    "protein": 0.079
+  },
+  {
+    "id": "702da5ee-8db5-4a55-9fb8-a9ff31774acf",
+    "name": "okra",
+    "calsperg": 0.328,
+    "carbs": 0.072,
+    "fat": 0.002,
+    "protein": 0.019
+  },
+  {
+    "id": "7041041d-e080-4770-9e10-b9dce2014f5c",
+    "name": "turkey",
+    "calsperg": 1.89,
+    "carbs": 0.001,
+    "fat": 0.07,
+    "protein": 0.29
+  },
+  {
+    "id": "70aa7ab8-8afb-4b26-b024-e012f3e63c50",
+    "name": "chocolate",
+    "calsperg": 5.461,
+    "carbs": 0.607,
+    "fat": 0.314,
+    "protein": 0.049
+  },
+  {
+    "id": "716c2a59-27d5-4f5c-a4e8-0bfe7b4649ed",
+    "name": "waffles",
+    "calsperg": 2.903,
+    "carbs": 0.327,
+    "fat": 0.143,
+    "protein": 0.079
+  },
+  {
+    "id": "717635d2-4d7b-474e-9331-4ba58dbb4b39",
+    "name": "garlic bread",
+    "calsperg": 3.501,
+    "carbs": 0.421,
+    "fat": 0.167,
+    "protein": 0.082
+  },
+  {
+    "id": "71eedddd-9246-4176-9dc5-38b1d1128ed0",
+    "name": "duck",
+    "calsperg": 3.37,
+    "carbs": 0,
+    "fat": 0.28,
+    "protein": 0.19
+  },
+  {
+    "id": "71efec14-2b41-4087-a6ba-834f4568248f",
+    "name": "figs",
+    "calsperg": 2.75,
+    "carbs": 0.65,
+    "fat": 0,
+    "protein": 0.025
+  },
+  {
+    "id": "720476c9-1219-4179-a0d0-ea36eb9f0fc4",
+    "name": "broth",
+    "calsperg": 2.64,
+    "carbs": 0.185,
+    "fat": 0.147,
+    "protein": 0.165
+  },
+  {
+    "id": "724a1c26-111a-46d2-9f76-d71a31859903",
+    "name": "stews",
+    "calsperg": 1.06,
+    "carbs": 0.082,
+    "fat": 0.032,
+    "protein": 0.11
+  },
+  {
+    "id": "72b44932-21c0-4af8-a544-5e7109367260",
+    "name": "celery",
+    "calsperg": 0.16,
+    "carbs": 0.034,
+    "fat": 0.002,
+    "protein": 0.007
+  },
+  {
+    "id": "73f569d5-d5fa-4094-adf0-854a3a94e1d9",
+    "name": "lime",
+    "calsperg": 0.3,
+    "carbs": 0.105,
+    "fat": 0.002,
+    "protein": 0.007
+  },
+  {
+    "id": "74b3446c-1afe-4fdd-9412-bb0a5c47a998",
+    "name": "peach",
+    "calsperg": 0.388,
+    "carbs": 0.095,
+    "fat": 0.003,
+    "protein": 0.009
+  },
+  {
+    "id": "754bccc0-e1fc-4614-a386-23d793a23dd7",
+    "name": "potato",
+    "calsperg": 0.77,
+    "carbs": 0.17,
+    "fat": 0.001,
+    "protein": 0.02
+  },
+  {
+    "id": "755a412a-e2a1-4729-96d8-012b936782df",
+    "name": "sushi",
+    "calsperg": 1.43,
+    "carbs": 0.299,
+    "fat": 0.004,
+    "protein": 0.043
+  },
+  {
+    "id": "7575bf81-5cd8-4fed-8d81-ace247de91e1",
+    "name": "pizza dough",
+    "calsperg": 2.355,
+    "carbs": 0.417,
+    "fat": 0.047,
+    "protein": 0.054
+  },
+  {
+    "id": "75b24d8b-2b6f-4200-aefd-e57f25172b87",
+    "name": "latte",
+    "calsperg": 0.44,
+    "carbs": 0.044,
+    "fat": 0.017,
+    "protein": 0.029
+  },
+  {
+    "id": "764d3925-16aa-4c03-bdd9-1c4b36e8cd35",
+    "name": "octopus",
+    "calsperg": 1.637,
+    "carbs": 0.044,
+    "fat": 0.021,
+    "protein": 0.297
+  },
+  {
+    "id": "76b75655-e5b3-4119-b63e-96ba20878417",
+    "name": "lima beans",
+    "calsperg": 1.15,
+    "carbs": 0.21,
+    "fat": 0.004,
+    "protein": 0.078
+  },
+  {
+    "id": "76d87227-a0e5-4908-a9ae-5043db8763fd",
+    "name": "seeds",
+    "calsperg": 5.582,
+    "carbs": 0.108,
+    "fat": 0.492,
+    "protein": 0.309
+  },
+  {
+    "id": "771a65d8-46bc-4fb5-b00a-1930169da6ea",
+    "name": "yam",
+    "calsperg": 1.241,
+    "carbs": 0.294,
+    "fat": 0.002,
+    "protein": 0.016
+  },
+  {
+    "id": "77712078-93ae-4f77-9e98-76ad39c05e5c",
+    "name": "cherries",
+    "calsperg": 0.63,
+    "carbs": 0.16,
+    "fat": 0.002,
+    "protein": 0.011
+  },
+  {
+    "id": "7848a9b9-6b9c-4565-80ca-b9b4c9671edb",
+    "name": "water",
+    "calsperg": 0,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "79a7cd2d-11d1-4e16-992b-e53701c56dfd",
+    "name": "two",
+    "calsperg": 0.2,
+    "carbs": 0.2,
+    "fat": 0.2,
+    "protein": 0.2
+  },
+  {
+    "id": "79c65dd1-a24a-444b-907f-31524f60fdd0",
+    "name": "crackers",
+    "calsperg": 5.1,
+    "carbs": 0.61,
+    "fat": 0.26,
+    "protein": 0.066
+  },
+  {
+    "id": "7abea2ae-538d-4565-aab4-db2af9b8f5bb",
+    "name": "eggnog",
+    "calsperg": 0.878,
+    "carbs": 0.08,
+    "fat": 0.042,
+    "protein": 0.046
+  },
+  {
+    "id": "7b937a3c-90a1-43c9-9411-20a4499f5209",
+    "name": "mayonnaise",
+    "calsperg": 6.8,
+    "carbs": 0.006,
+    "fat": 0.75,
+    "protein": 0.01
+  },
+  {
+    "id": "7d2644c9-02eb-413b-a7c4-be09295f9cf5",
+    "name": "leeks",
+    "calsperg": 0.61,
+    "carbs": 0.14,
+    "fat": 0.003,
+    "protein": 0.015
+  },
+  {
+    "id": "7d2e80e4-74db-4754-ad30-3c3fe7e917c7",
+    "name": "potato salad",
+    "calsperg": 1.429,
+    "carbs": 0.111,
+    "fat": 0.08,
+    "protein": 0.028
+  },
+  {
+    "id": "7d476e0f-4c99-4ee9-bf0a-607bcf7e917c",
+    "name": "breadsticks",
+    "calsperg": 4.083,
+    "carbs": 0.691,
+    "fat": 0.092,
+    "protein": 0.123
+  },
+  {
+    "id": "7df953bb-4e7f-46b7-98a1-8a79ef3b9594",
+    "name": "lamb",
+    "calsperg": 2.941,
+    "carbs": 0,
+    "fat": 0.211,
+    "protein": 0.247
+  },
+  {
+    "id": "7ec68947-2002-4662-a5c3-44c072a8cae6",
+    "name": "roast pork",
+    "calsperg": 2.918,
+    "carbs": 0,
+    "fat": 0.212,
+    "protein": 0.235
+  },
+  {
+    "id": "7f2e1552-2ded-4155-bb2a-c940aae97541",
+    "name": "wafers",
+    "calsperg": 4.334,
+    "carbs": 0.726,
+    "fat": 0.144,
+    "protein": 0.068
+  },
+  {
+    "id": "80eb4e27-aa87-4aa8-ac18-d3537c62bdd0",
+    "name": "soy sauce",
+    "calsperg": 0.53,
+    "carbs": 0.049,
+    "fat": 0.006,
+    "protein": 0.081
+  },
+  {
+    "id": "80f4119e-ba2c-4a5c-aac3-a57b37d3795f",
+    "name": "barbecue sauce",
+    "calsperg": 1.72,
+    "carbs": 0.41,
+    "fat": 0.006,
+    "protein": 0.008
+  },
+  {
+    "id": "81541bda-49e8-4ca9-b822-60cd5b6f149e",
+    "name": "smoothies",
+    "calsperg": 0.383,
+    "carbs": 0.084,
+    "fat": 0,
+    "protein": 0.013
+  },
+  {
+    "id": "8159c47f-c2b3-4092-a6d8-e2a861f88075",
+    "name": "cakes",
+    "calsperg": 3.91,
+    "carbs": 0.56,
+    "fat": 0.18,
+    "protein": 0.03
+  },
+  {
+    "id": "8343276c-9b68-43c4-bf8e-2cfcd7a26eed",
+    "name": "egg yolks",
+    "calsperg": 3.228,
+    "carbs": 0.036,
+    "fat": 0.267,
+    "protein": 0.159
+  },
+  {
+    "id": "846ee54a-823c-479c-a13d-7f4cbe32263d",
+    "name": "frostings",
+    "calsperg": 4.217,
+    "carbs": 0.686,
+    "fat": 0.163,
+    "protein": 0
+  },
+  {
+    "id": "84bebfcc-01e5-4651-a48b-8aa3d153cd4e",
+    "name": "prunes",
+    "calsperg": 2.4,
+    "carbs": 0.64,
+    "fat": 0.004,
+    "protein": 0.022
+  },
+  {
+    "id": "84d4a9c9-bb0a-4a97-b243-64588eeee10c",
+    "name": "pesto",
+    "calsperg": 5.62,
+    "carbs": 0.08,
+    "fat": 0.549,
+    "protein": 0.121
+  },
+  {
+    "id": "8557b759-fece-4013-9a0a-35aa86454653",
+    "name": "goat cheese",
+    "calsperg": 2.64,
+    "carbs": 0,
+    "fat": 0.21,
+    "protein": 0.19
+  },
+  {
+    "id": "8605161c-9793-497e-8663-e7a89f4f6c38",
+    "name": "mashed potatoes",
+    "calsperg": 0.907,
+    "carbs": 0.151,
+    "fat": 0.029,
+    "protein": 0.017
+  },
+  {
+    "id": "8670341a-5c79-4a08-b7e5-cb3460f95776",
+    "name": "country rice",
+    "calsperg": 1.5204,
+    "carbs": 0.316,
+    "fat": 0.068,
+    "protein": 0.0386
+  },
+  {
+    "id": "86a03ab8-6e81-4454-bdc5-7543aab33f54",
+    "name": "empanadas",
+    "calsperg": 3.355,
+    "carbs": 0.312,
+    "fat": 0.18,
+    "protein": 0.111
+  },
+  {
+    "id": "86a06ccb-793c-4e24-b78c-71beaea65f86",
+    "name": "blueberry pie",
+    "calsperg": 2.456,
+    "carbs": 0.33,
+    "fat": 0.119,
+    "protein": 0.027
+  },
+  {
+    "id": "8784dce4-690e-4fe6-92c4-86ceaace6228",
+    "name": "mozzarella cheese",
+    "calsperg": 2.776,
+    "carbs": 0.032,
+    "fat": 0.171,
+    "protein": 0.28
+  },
+  {
+    "id": "8818fc9e-748a-4c0f-b836-a85eda4c7d83",
+    "name": "pears",
+    "calsperg": 0.572,
+    "carbs": 0.152,
+    "fat": 0.001,
+    "protein": 0.004
+  },
+  {
+    "id": "88fcf883-dec4-4b94-aa28-8f3e1846c125",
+    "name": "garlic",
+    "calsperg": 1.49,
+    "carbs": 0.33,
+    "fat": 0.005,
+    "protein": 0.064
+  },
+  {
+    "id": "88fe994e-5400-4fc0-8da3-2f165d7d9ee6",
+    "name": "rosemary",
+    "calsperg": 1.31,
+    "carbs": 0.2,
+    "fat": 0.057,
+    "protein": 0.029
+  },
+  {
+    "id": "892e6dae-d758-4b31-a818-38207d15c00c",
+    "name": "buttermilk",
+    "calsperg": 0.402,
+    "carbs": 0.048,
+    "fat": 0.009,
+    "protein": 0.033
+  },
+  {
+    "id": "895cf666-4953-48fc-83af-b3f185bb65a2",
+    "name": "gnocchi",
+    "calsperg": 2.01,
+    "carbs": 0.41,
+    "fat": 0.012,
+    "protein": 0.06
+  },
+  {
+    "id": "898b3ff0-3868-47af-be2c-4eb53641152b",
+    "name": "biscuits",
+    "calsperg": 3.525,
+    "carbs": 0.447,
+    "fat": 0.162,
+    "protein": 0.07
+  },
+  {
+    "id": "89db7af9-1e94-4877-9eba-fee098149355",
+    "name": "lo mein",
+    "calsperg": 1.22,
+    "carbs": 0.2,
+    "fat": 0.024,
+    "protein": 0.048
+  },
+  {
+    "id": "8ab48202-9cef-443b-bbcb-06d46f6e310d",
+    "name": "apple pie",
+    "calsperg": 2.367,
+    "carbs": 0.345,
+    "fat": 0.11,
+    "protein": 0.018
+  },
+  {
+    "id": "8b28ed5c-810b-4442-8f92-005930db5979",
+    "name": "mandarin oranges",
+    "calsperg": 0.53,
+    "carbs": 0.13,
+    "fat": 0.003,
+    "protein": 0.008
+  },
+  {
+    "id": "8bcd53a7-6d24-4672-8ea2-c29b97559ce9",
+    "name": "avocado",
+    "calsperg": 1.6,
+    "carbs": 0.09,
+    "fat": 0.15,
+    "protein": 0.02
+  },
+  {
+    "id": "8c229e8f-32c8-49e9-b644-79956e077c95",
+    "name": "margarita",
+    "calsperg": 1,
+    "carbs": 0.099,
+    "fat": 0,
+    "protein": 0.001
+  },
+  {
+    "id": "8c977b19-5616-47bf-83ed-27bc789e9346",
+    "name": "chocolate milk",
+    "calsperg": 0.831,
+    "carbs": 0.102,
+    "fat": 0.034,
+    "protein": 0.032
+  },
+  {
+    "id": "8d877016-9fe6-4363-8271-29f2dfd61363",
+    "name": "ravioli",
+    "calsperg": 0.771,
+    "carbs": 0.138,
+    "fat": 0.015,
+    "protein": 0.025
+  },
+  {
+    "id": "8e3ca070-7d69-4941-80f0-c5721427af3d",
+    "name": "cornmeal",
+    "calsperg": 3.7,
+    "carbs": 0.793,
+    "fat": 0.018,
+    "protein": 0.07
+  },
+  {
+    "id": "8e9c3451-9c67-4cbc-82a2-162fa744e2a8",
+    "name": "margarine",
+    "calsperg": 7.17,
+    "carbs": 0.007,
+    "fat": 0.81,
+    "protein": 0.002
+  },
+  {
+    "id": "8e9e05ec-dd7e-483d-9490-dfa288fd43be",
+    "name": "dates",
+    "calsperg": 2.82,
+    "carbs": 0.75,
+    "fat": 0.004,
+    "protein": 0.025
+  },
+  {
+    "id": "8f38b388-48e0-46a7-94af-093f368bc1e7",
+    "name": "nachos",
+    "calsperg": 2.24,
+    "carbs": 0.048,
+    "fat": 0.17,
+    "protein": 0.12
+  },
+  {
+    "id": "8f552f3a-c8c3-4a14-b916-263cd8682368",
+    "name": "sauerkraut",
+    "calsperg": 0.19,
+    "carbs": 0.043,
+    "fat": 0.001,
+    "protein": 0.009
+  },
+  {
+    "id": "8f65314c-791f-4333-bc80-b6b6cd5010ed",
+    "name": "egg whites",
+    "calsperg": 0.52,
+    "carbs": 0.007,
+    "fat": 0.002,
+    "protein": 0.1
+  },
+  {
+    "id": "8f7b1e03-9179-40f0-b662-01e1c1ee1b2b",
+    "name": "mixed nuts",
+    "calsperg": 6.069,
+    "carbs": 0.211,
+    "fat": 0.535,
+    "protein": 0.206
+  },
+  {
+    "id": "8f97f6bc-296a-4dc2-aa07-3a6a12b1c1a8",
+    "name": "taquitos",
+    "calsperg": 2.86,
+    "carbs": 0.34,
+    "fat": 0.13,
+    "protein": 0.093
+  },
+  {
+    "id": "8fa435a1-ce8f-48e8-b5c4-8b2209cf4887",
+    "name": "parsley",
+    "calsperg": 0.371,
+    "carbs": 0.064,
+    "fat": 0.008,
+    "protein": 0.029
+  },
+  {
+    "id": "90025120-4e40-4211-8509-2f55d9a8f46b",
+    "name": "cocoa",
+    "calsperg": 2.237,
+    "carbs": 0.573,
+    "fat": 0.135,
+    "protein": 0.198
+  },
+  {
+    "id": "90114533-a157-4ca9-bfa3-fdb9348a3f54",
+    "name": "frozen yogurt",
+    "calsperg": 1.633,
+    "carbs": 0.245,
+    "fat": 0.059,
+    "protein": 0.041
+  },
+  {
+    "id": "90597e34-6370-493f-b7be-c6a71f216771",
+    "name": "nopales",
+    "calsperg": 0.16,
+    "carbs": 0.033,
+    "fat": 0.001,
+    "protein": 0.014
+  },
+  {
+    "id": "909b338d-d1ef-497c-8314-b8b074f81b68",
+    "name": "tostadas",
+    "calsperg": 1.48,
+    "carbs": 0.132,
+    "fat": 0.078,
+    "protein": 0.071
+  },
+  {
+    "id": "90cdfdc9-fcb3-42d4-9488-f26da16f63e4",
+    "name": "curries",
+    "calsperg": 1.04,
+    "carbs": 0.032,
+    "fat": 0.046,
+    "protein": 0.12
+  },
+  {
+    "id": "90d5eb94-8b58-4aae-8427-fa0fdff710f1",
+    "name": "chocolate chip cookies",
+    "calsperg": 4.874,
+    "carbs": 0.569,
+    "fat": 0.281,
+    "protein": 0.058
+  },
+  {
+    "id": "911ab3cc-6b05-4be2-9b02-66c95b6edd0d",
+    "name": "salt",
+    "calsperg": 0,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "915b2246-6639-404d-af90-ca9a7b3b8d31",
+    "name": "muesli",
+    "calsperg": 3.52,
+    "carbs": 0.76,
+    "fat": 0.033,
+    "protein": 0.11
+  },
+  {
+    "id": "918f54af-ecd1-4382-9a61-ac26b732f061",
+    "name": "veal",
+    "calsperg": 1.72,
+    "carbs": 0,
+    "fat": 0.076,
+    "protein": 0.244
+  },
+  {
+    "id": "91b7430a-8929-46db-9406-9d8146f1dc22",
+    "name": "cottage cheese",
+    "calsperg": 0.98,
+    "carbs": 0.034,
+    "fat": 0.043,
+    "protein": 0.11
+  },
+  {
+    "id": "9206c686-9630-4937-a97d-bb5ccab1bd0a",
+    "name": "pastries",
+    "calsperg": 5.508,
+    "carbs": 0.452,
+    "fat": 0.384,
+    "protein": 0.072
+  },
+  {
+    "id": "929710a2-dfa4-466b-99a3-5251e5a43ff2",
+    "name": "rice noodles",
+    "calsperg": 1.09,
+    "carbs": 0.25,
+    "fat": 0.002,
+    "protein": 0.009
+  },
+  {
+    "id": "92a87624-de8e-4f8c-abdf-f17abf7fa067",
+    "name": "beer",
+    "calsperg": 0.431,
+    "carbs": 0.036,
+    "fat": 0,
+    "protein": 0.005
+  },
+  {
+    "id": "92f7591b-8e93-4ebc-97c1-2dd4be7fb202",
+    "name": "chayote squash",
+    "calsperg": 0.24,
+    "carbs": 0.051,
+    "fat": 0.005,
+    "protein": 0.006
+  },
+  {
+    "id": "93b6b993-1b33-4378-85cb-c3989838ee4a",
+    "name": "kiwi",
+    "calsperg": 0.61,
+    "carbs": 0.15,
+    "fat": 0.005,
+    "protein": 0.011
+  },
+  {
+    "id": "93cc71e5-d749-48e9-a63e-559f2bb40617",
+    "name": "bagels",
+    "calsperg": 2.5,
+    "carbs": 0.49,
+    "fat": 0.015,
+    "protein": 0.101
+  },
+  {
+    "id": "93d60a43-92dc-4022-ac16-11789d4f3ee1",
+    "name": "pie crust",
+    "calsperg": 2.367,
+    "carbs": 0.345,
+    "fat": 0.11,
+    "protein": 0.018
+  },
+  {
+    "id": "94969dc0-e80b-462b-9dd9-11b33eac10e7",
+    "name": "cream cheese",
+    "calsperg": 3.5,
+    "carbs": 0.055,
+    "fat": 0.34,
+    "protein": 0.062
+  },
+  {
+    "id": "955e6656-64f6-467c-94eb-de1411473a73",
+    "name": "vinegar",
+    "calsperg": 0,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "95633df0-9358-44f5-9a02-d1a0cd2b8755",
+    "name": "apple cider",
+    "calsperg": 0.462,
+    "carbs": 0.113,
+    "fat": 0.001,
+    "protein": 0.001
+  },
+  {
+    "id": "95f0f747-734b-4141-a978-eebaecce46dd",
+    "name": "baked potatoes",
+    "calsperg": 0.93,
+    "carbs": 0.21,
+    "fat": 0.001,
+    "protein": 0.025
+  },
+  {
+    "id": "96518c4a-2e9b-4140-ad99-e968f4bb9811",
+    "name": "roast turkey",
+    "calsperg": 1.89,
+    "carbs": 0.001,
+    "fat": 0.074,
+    "protein": 0.29
+  },
+  {
+    "id": "96d23655-03e5-4ed2-b1be-9e9be986f276",
+    "name": "fruit punch",
+    "calsperg": 0.45,
+    "carbs": 0.125,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "972247d4-ad76-48f5-95b2-364d0cfac2fc",
+    "name": "fajitas",
+    "calsperg": 2,
+    "carbs": 0.18,
+    "fat": 0.079,
+    "protein": 0.14
+  },
+  {
+    "id": "988bc8f3-fe77-4dea-83e3-1aa7e51a738a",
+    "name": "pastrami",
+    "calsperg": 1.458,
+    "carbs": 0.004,
+    "fat": 0.058,
+    "protein": 0.216
+  },
+  {
+    "id": "98b7c427-85ee-438b-b298-9af85d3d91ea",
+    "name": "nutrition bars",
+    "calsperg": 4,
+    "carbs": 0.4,
+    "fat": 0.098,
+    "protein": 0.38
+  },
+  {
+    "id": "992fccb8-546d-41b0-acc1-62e3be5dfc9c",
+    "name": "samosas",
+    "calsperg": 2.62,
+    "carbs": 0.24,
+    "fat": 0.17,
+    "protein": 0.035
+  },
+  {
+    "id": "996b4a94-daae-48e1-895b-cc808086d513",
+    "name": "orzo",
+    "calsperg": 2.25,
+    "carbs": 0.458,
+    "fat": 0.009,
+    "protein": 0.079
+  },
+  {
+    "id": "9987dae2-eae3-4540-b7c7-de28c7c5b449",
+    "name": "enchiladas",
+    "calsperg": 1.681,
+    "carbs": 0.158,
+    "fat": 0.092,
+    "protein": 0.061
+  },
+  {
+    "id": "99f1a59c-7c87-428b-9751-ed29c60558b3",
+    "name": "poached eggs",
+    "calsperg": 1.425,
+    "carbs": 0.008,
+    "fat": 0.092,
+    "protein": 0.125
+  },
+  {
+    "id": "9a1b7557-43d7-4fd1-b690-6f56424bb661",
+    "name": "relish",
+    "calsperg": 1.3,
+    "carbs": 0.35,
+    "fat": 0.005,
+    "protein": 0.004
+  },
+  {
+    "id": "9a9a2437-5add-4632-93db-835b55682ceb",
+    "name": "fish oil",
+    "calsperg": 9.033,
+    "carbs": 0,
+    "fat": 1.01,
+    "protein": 0
+  },
+  {
+    "id": "9cabb0f5-7490-49ce-8cc4-ea928cb467e2",
+    "name": "ribs",
+    "calsperg": 3.513,
+    "carbs": 0,
+    "fat": 0.281,
+    "protein": 0.227
+  },
+  {
+    "id": "9d447b3a-a574-49c0-880e-95a0df5cd32e",
+    "name": "guacamole",
+    "calsperg": 2,
+    "carbs": 0.086,
+    "fat": 0.171,
+    "protein": 0.029
+  },
+  {
+    "id": "9d60f461-7580-4113-83f7-b7c6f56db776",
+    "name": "gyros",
+    "calsperg": 1.85,
+    "carbs": 0.11,
+    "fat": 0.1,
+    "protein": 0.12
+  },
+  {
+    "id": "9daeb868-18fb-4d50-9d41-6edb0c918168",
+    "name": "onion rings",
+    "calsperg": 4.106,
+    "carbs": 0.438,
+    "fat": 0.253,
+    "protein": 0.039
+  },
+  {
+    "id": "9df2b6e1-019c-4d0e-96a3-036812c4b155",
+    "name": "jalapenos",
+    "calsperg": 0.29,
+    "carbs": 0.065,
+    "fat": 0.004,
+    "protein": 0.009
+  },
+  {
+    "id": "9e335aa6-74c9-408b-833b-160b8d51abc2",
+    "name": "ice pop",
+    "calsperg": 0.79,
+    "carbs": 0.19,
+    "fat": 0.002,
+    "protein": 0
+  },
+  {
+    "id": "9e8b04b8-539c-4f60-9dfc-89b1e9eace08",
+    "name": "mixed greens",
+    "calsperg": 0.28,
+    "carbs": 0.053,
+    "fat": 0.004,
+    "protein": 0.022
+  },
+  {
+    "id": "9f23792c-2744-46f5-a6a7-1a169e973f1f",
+    "name": "anchovies",
+    "calsperg": 2.1,
+    "carbs": 0,
+    "fat": 0.097,
+    "protein": 0.29
+  },
+  {
+    "id": "a0f4a29a-7f75-41a2-abcc-29655ff8169e",
+    "name": "cantaloupe",
+    "calsperg": 0.34,
+    "carbs": 0.08,
+    "fat": 0.002,
+    "protein": 0.008
+  },
+  {
+    "id": "a177c007-398c-4957-9075-7169c4e9334e",
+    "name": "cereal",
+    "calsperg": 3.76,
+    "carbs": 0.73,
+    "fat": 0.067,
+    "protein": 0.12
+  },
+  {
+    "id": "a1824ba2-66ac-475e-b8d4-8dbe08c68c16",
+    "name": "edamame",
+    "calsperg": 1.22,
+    "carbs": 0.098,
+    "fat": 0.051,
+    "protein": 0.11
+  },
+  {
+    "id": "a1d400b7-8ed3-4aa7-b911-a5b70444a17d",
+    "name": "cherry pie",
+    "calsperg": 2.694,
+    "carbs": 0.387,
+    "fat": 0.122,
+    "protein": 0.028
+  },
+  {
+    "id": "a1e3b7cd-80ad-4b39-b9b4-d60e722df951",
+    "name": "custard",
+    "calsperg": 1.175,
+    "carbs": 0.172,
+    "fat": 0.04,
+    "protein": 0.04
+  },
+  {
+    "id": "a41cf2f6-48c3-4418-b60b-f2008e9a0ade",
+    "name": "string cheese",
+    "calsperg": 3,
+    "carbs": 0.022,
+    "fat": 0.22,
+    "protein": 0.22
+  },
+  {
+    "id": "a5b388cd-f6b4-401b-9ea4-3b229822b6bb",
+    "name": "lemonade",
+    "calsperg": 0.4,
+    "carbs": 0.1,
+    "fat": 0,
+    "protein": 0.001
+  },
+  {
+    "id": "a5c74a5f-574a-4762-81cf-e88f102e9c7d",
+    "name": "crispbread",
+    "calsperg": 3.66,
+    "carbs": 0.82,
+    "fat": 0.013,
+    "protein": 0.079
+  },
+  {
+    "id": "a6613d65-83e8-4f89-a755-3659868249f1",
+    "name": "skim milk",
+    "calsperg": 0.34,
+    "carbs": 0.049,
+    "fat": 0.001,
+    "protein": 0.034
+  },
+  {
+    "id": "a688b379-e7f3-435d-b134-9fe63ae1d25e",
+    "name": "naan",
+    "calsperg": 2.91,
+    "carbs": 0.5,
+    "fat": 0.057,
+    "protein": 0.096
+  },
+  {
+    "id": "a6bfd245-3e44-4d94-a459-e508f365c35e",
+    "name": "sorbet",
+    "calsperg": 1.24,
+    "carbs": 0.267,
+    "fat": 0.005,
+    "protein": 0.019
+  },
+  {
+    "id": "a7558dba-0cf1-41a4-b807-866e96aa0906",
+    "name": "chia seeds",
+    "calsperg": 4.86,
+    "carbs": 0.42,
+    "fat": 0.31,
+    "protein": 0.17
+  },
+  {
+    "id": "a779baad-9cb0-4751-a6d4-6c955bebd189",
+    "name": "banana with peel",
+    "calsperg": 0.556,
+    "carbs": 0.144,
+    "fat": 0.002,
+    "protein": 0.007
+  },
+  {
+    "id": "a7bcad7c-5c83-40b8-9baa-86c647abab3c",
+    "name": "donuts",
+    "calsperg": 4.21,
+    "carbs": 0.48,
+    "fat": 0.23,
+    "protein": 0.061
+  },
+  {
+    "id": "a7ee6139-1cfe-48e8-aa53-e1616d4ffa45",
+    "name": "mushroom",
+    "calsperg": 0.22,
+    "carbs": 0.033,
+    "fat": 0.003,
+    "protein": 0.031
+  },
+  {
+    "id": "a8d3c589-dd61-4fa9-8a0e-06b641943c5a",
+    "name": "cheddar cheese",
+    "calsperg": 4.019,
+    "carbs": 0.013,
+    "fat": 0.33,
+    "protein": 0.248
+  },
+  {
+    "id": "a90d2166-64fc-41dd-9526-4534f139b871",
+    "name": "haddock",
+    "calsperg": 0.904,
+    "carbs": 0,
+    "fat": 0.006,
+    "protein": 0.2
+  },
+  {
+    "id": "a94a17cc-d687-41c8-95f5-6778e669e134",
+    "name": "peanuts",
+    "calsperg": 5.675,
+    "carbs": 0.161,
+    "fat": 0.492,
+    "protein": 0.253
+  },
+  {
+    "id": "a9e00c04-606f-456d-9bc9-1f1a4bcc8c3b",
+    "name": "popcorn",
+    "calsperg": 3.745,
+    "carbs": 0.74,
+    "fat": 0.043,
+    "protein": 0.11
+  },
+  {
+    "id": "aaba0847-e9ac-4e4f-8e00-0da13f860ea4",
+    "name": "tamales",
+    "calsperg": 1.528,
+    "carbs": 0.181,
+    "fat": 0.06,
+    "protein": 0.062
+  },
+  {
+    "id": "ab1b5686-6f2d-493f-8478-fba44f17c86f",
+    "name": "honey",
+    "calsperg": 3.04,
+    "carbs": 0.82,
+    "fat": 0,
+    "protein": 0.003
+  },
+  {
+    "id": "ab225bbf-2370-4237-a4ce-606ff087f034",
+    "name": "salami",
+    "calsperg": 3.347,
+    "carbs": 0.024,
+    "fat": 0.26,
+    "protein": 0.22
+  },
+  {
+    "id": "ab99f6ed-30f3-45b4-ae8b-bdb9877c9c78",
+    "name": "jerky",
+    "calsperg": 4.1,
+    "carbs": 0.11,
+    "fat": 0.26,
+    "protein": 0.33
+  },
+  {
+    "id": "abaaa3a6-5cf7-4d08-a473-ce88fc2cfe56",
+    "name": "parsnips",
+    "calsperg": 0.75,
+    "carbs": 0.18,
+    "fat": 0.003,
+    "protein": 0.012
+  },
+  {
+    "id": "abcec4c9-a9cd-4908-a1e9-907a8ab1a50d",
+    "name": "grapes",
+    "calsperg": 0.69,
+    "carbs": 0.18,
+    "fat": 0.002,
+    "protein": 0.007
+  },
+  {
+    "id": "ac02848d-1a65-41e3-8119-40c82e4f7ceb",
+    "name": "balsamic vinegar",
+    "calsperg": 0.88,
+    "carbs": 0.17,
+    "fat": 0,
+    "protein": 0.005
+  },
+  {
+    "id": "ad005f17-7bbd-416f-b781-1970a410c2f9",
+    "name": "licorice",
+    "calsperg": 3.5,
+    "carbs": 0.8,
+    "fat": 0.023,
+    "protein": 0.026
+  },
+  {
+    "id": "ad366bf7-dcea-4c85-a7d9-eb710f87e1fb",
+    "name": "dumplings",
+    "calsperg": 2.3,
+    "carbs": 0.39,
+    "fat": 0.054,
+    "protein": 0.062
+  },
+  {
+    "id": "adccf80f-0379-430a-abcf-86c95a821bdb",
+    "name": "italian dressing",
+    "calsperg": 2.31,
+    "carbs": 0.119,
+    "fat": 0.205,
+    "protein": 0.004
+  },
+  {
+    "id": "ae385d32-a131-4340-b8a2-284ba9a17cb9",
+    "name": "burritos",
+    "calsperg": 1.8,
+    "carbs": 0.23,
+    "fat": 0.068,
+    "protein": 0.07
+  },
+  {
+    "id": "af3361a7-b72b-4ce0-bbd8-00871842041a",
+    "name": "risotto",
+    "calsperg": 1.22,
+    "carbs": 0.16,
+    "fat": 0.039,
+    "protein": 0.043
+  },
+  {
+    "id": "af6372a2-1faf-4b73-8444-d211127521a9",
+    "name": "muffins",
+    "calsperg": 3.77,
+    "carbs": 0.533,
+    "fat": 0.159,
+    "protein": 0.046
+  },
+  {
+    "id": "af75e1b1-1865-4f38-b40f-2f4bb7668f95",
+    "name": "wine",
+    "calsperg": 0.85,
+    "carbs": 0.026,
+    "fat": 0,
+    "protein": 0.001
+  },
+  {
+    "id": "aff12219-c99f-459b-a84c-d93aa9fbad2a",
+    "name": "cilantro",
+    "calsperg": 0.228,
+    "carbs": 0.037,
+    "fat": 0.005,
+    "protein": 0.022
+  },
+  {
+    "id": "b0be0650-5df5-4b66-87f1-69179c6fcf0c",
+    "name": "cobbler",
+    "calsperg": 1.99,
+    "carbs": 0.35,
+    "fat": 0.063,
+    "protein": 0.02
+  },
+  {
+    "id": "b12771b7-ec04-4638-b25c-17285fb3db2d",
+    "name": "coffee creamer",
+    "calsperg": 1.32,
+    "carbs": 0.112,
+    "fat": 0.099,
+    "protein": 0.01
+  },
+  {
+    "id": "b15c03fd-0d4c-4faa-8d6c-de29fecf8286",
+    "name": "corned beef",
+    "calsperg": 2.508,
+    "carbs": 0.005,
+    "fat": 0.19,
+    "protein": 0.179
+  },
+  {
+    "id": "b1776484-c83e-4138-bd6a-a36b87c27604",
+    "name": "apricots",
+    "calsperg": 0.48,
+    "carbs": 0.11,
+    "fat": 0.004,
+    "protein": 0.014
+  },
+  {
+    "id": "b276b6d4-c8f6-434e-95e0-0bd2a083a2e1",
+    "name": "garden salad",
+    "calsperg": 0.646,
+    "carbs": 0.032,
+    "fat": 0.034,
+    "protein": 0.061
+  },
+  {
+    "id": "b33d2e57-d142-41ba-956d-9133febbb552",
+    "name": "lasagna",
+    "calsperg": 1.35,
+    "carbs": 0.154,
+    "fat": 0.05,
+    "protein": 0.072
+  },
+  {
+    "id": "b36da937-03f8-427e-a8ea-b05dcc72c323",
+    "name": "honeydew melons",
+    "calsperg": 0.36,
+    "carbs": 0.09,
+    "fat": 0.001,
+    "protein": 0.005
+  },
+  {
+    "id": "b3c7f1e9-0d4c-47d7-9b5c-1a54b256b751",
+    "name": "mustard",
+    "calsperg": 0.613,
+    "carbs": 0.06,
+    "fat": 0.033,
+    "protein": 0.037
+  },
+  {
+    "id": "b409c87c-ae45-433a-92fb-ebdecb30100c",
+    "name": "chips",
+    "calsperg": 5.363,
+    "carbs": 0.529,
+    "fat": 0.35,
+    "protein": 0.07
+  },
+  {
+    "id": "b49ea061-cb46-4ed2-b1ce-2030bb6cc4be",
+    "name": "chilaquiles",
+    "calsperg": 1.95,
+    "carbs": 0.12,
+    "fat": 0.12,
+    "protein": 0.089
+  },
+  {
+    "id": "b4e28aaa-5c41-4053-9537-50f6f15e533c",
+    "name": "sweet potato",
+    "calsperg": 0.76,
+    "carbs": 0.18,
+    "fat": 0,
+    "protein": 0.01
+  },
+  {
+    "id": "b536092c-542e-4720-866e-0b83b015ccdd",
+    "name": "raisin bran",
+    "calsperg": 3.14,
+    "carbs": 0.77,
+    "fat": 0.027,
+    "protein": 0.08
+  },
+  {
+    "id": "b55dcda1-019c-41db-865f-55c8b1c0e13b",
+    "name": "onions",
+    "calsperg": 0.4,
+    "carbs": 0.09,
+    "fat": 0.001,
+    "protein": 0.011
+  },
+  {
+    "id": "b5e4e0d6-cecd-45f3-ab77-2bf05c02cf41",
+    "name": "refried beans",
+    "calsperg": 0.918,
+    "carbs": 0.152,
+    "fat": 0.012,
+    "protein": 0.052
+  },
+  {
+    "id": "b6b7ba41-0417-4c68-aa2b-f0c9a6e8281b",
+    "name": "meatloaf",
+    "calsperg": 1.81,
+    "carbs": 0.077,
+    "fat": 0.099,
+    "protein": 0.15
+  },
+  {
+    "id": "b76ea65b-6a26-49ca-aee3-d427b6e25c9e",
+    "name": "sugar",
+    "calsperg": 3.88,
+    "carbs": 1,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "b79b7e38-97b5-40ba-aea9-c1c9b7a7f776",
+    "name": "raisins",
+    "calsperg": 2.99,
+    "carbs": 0.79,
+    "fat": 0.005,
+    "protein": 0.031
+  },
+  {
+    "id": "b7a10334-df92-4c18-858b-c9031f3b22a8",
+    "name": "radishes",
+    "calsperg": 0.16,
+    "carbs": 0.034,
+    "fat": 0.001,
+    "protein": 0.007
+  },
+  {
+    "id": "b7d32a45-79bd-465c-b63d-0c4c7a9e343d",
+    "name": "swordfish",
+    "calsperg": 1.718,
+    "carbs": 0,
+    "fat": 0.079,
+    "protein": 0.234
+  },
+  {
+    "id": "b7f19c78-eb79-414d-b0e7-669463194574",
+    "name": "watermelon",
+    "calsperg": 0.3,
+    "carbs": 0.076,
+    "fat": 0.002,
+    "protein": 0.006
+  },
+  {
+    "id": "b852da77-ccea-4054-807e-c2c130bc8951",
+    "name": "nectarines",
+    "calsperg": 0.442,
+    "carbs": 0.107,
+    "fat": 0.003,
+    "protein": 0.011
+  },
+  {
+    "id": "b89a149a-8494-44fa-9c1b-82b9bb091a7e",
+    "name": "spinach (cooked)",
+    "calsperg": 0.23,
+    "carbs": 0.04,
+    "fat": 0,
+    "protein": 0.03
+  },
+  {
+    "id": "b8fa06cd-5fe0-4b97-8ec1-0f35a06687be",
+    "name": "tatsoi",
+    "calsperg": 0.22,
+    "carbs": 0.039,
+    "fat": 0.003,
+    "protein": 0.022
+  },
+  {
+    "id": "b9261401-ddc1-4e5b-a396-e8be37df464d",
+    "name": "deprecated",
+    "calsperg": 0.52,
+    "carbs": 0.003,
+    "fat": 0.002,
+    "protein": 0.14
+  },
+  {
+    "id": "b990fe39-b1f9-47aa-89f5-cd2b02dd3b1e",
+    "name": "mexican cheese",
+    "calsperg": 3.58,
+    "carbs": 0.018,
+    "fat": 0.29,
+    "protein": 0.24
+  },
+  {
+    "id": "b9937589-211b-4719-938c-2c45abadede8",
+    "name": "nuts",
+    "calsperg": 6.07,
+    "carbs": 0.21,
+    "fat": 0.54,
+    "protein": 0.2
+  },
+  {
+    "id": "b9c548a5-7f5a-49c8-ab53-02b90f6bafa9",
+    "name": "cherry tomatoes",
+    "calsperg": 0.18,
+    "carbs": 0.039,
+    "fat": 0.002,
+    "protein": 0.009
+  },
+  {
+    "id": "b9f5adcc-0fb7-4735-b57d-e83d5fc4e47c",
+    "name": "succotash",
+    "calsperg": 0.99,
+    "carbs": 0.2,
+    "fat": 0.01,
+    "protein": 0.05
+  },
+  {
+    "id": "bb9dcc1c-b78d-4d5b-b1a3-bd3f0436c3c6",
+    "name": "ground pork",
+    "calsperg": 3.93,
+    "carbs": 0.014,
+    "fat": 0.33,
+    "protein": 0.23
+  },
+  {
+    "id": "bbaca937-b01d-4576-9173-9f6ff506cd85",
+    "name": "coffee",
+    "calsperg": 0,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "bbd956c7-2cc1-4dc0-80ad-8e3ec69f27ea",
+    "name": "bread",
+    "calsperg": 2.654,
+    "carbs": 0.423,
+    "fat": 0.042,
+    "protein": 0.135
+  },
+  {
+    "id": "bd36ed2d-f5d1-46b6-83c0-350d3271c947",
+    "name": "vegetable oil",
+    "calsperg": 8.864,
+    "carbs": 0,
+    "fat": 1,
+    "protein": 0
+  },
+  {
+    "id": "bd77f467-516d-492c-b850-fd97a35b485b",
+    "name": "soy nuts",
+    "calsperg": 4.49,
+    "carbs": 0.29,
+    "fat": 0.22,
+    "protein": 0.43
+  },
+  {
+    "id": "bdaf973a-959c-44d2-9e4d-7603efab7a3a",
+    "name": "teriyaki sauce",
+    "calsperg": 0.89,
+    "carbs": 0.16,
+    "fat": 0,
+    "protein": 0.059
+  },
+  {
+    "id": "bdce559a-e0f6-49a8-bebc-be8a0b9e829f",
+    "name": "blackberries",
+    "calsperg": 0.43,
+    "carbs": 0.092,
+    "fat": 0.005,
+    "protein": 0.014
+  },
+  {
+    "id": "bdf44f2a-e397-497a-b82f-e86ec7fafa6a",
+    "name": "salads",
+    "calsperg": 1.523,
+    "carbs": 0.148,
+    "fat": 0.097,
+    "protein": 0.01
+  },
+  {
+    "id": "be15b542-ae1b-4a50-b09f-686c7cbf9d32",
+    "name": "caesar salad",
+    "calsperg": 0.44,
+    "carbs": 0.043,
+    "fat": 0.021,
+    "protein": 0.032
+  },
+  {
+    "id": "be220745-4c01-4266-90dc-d28196c3f1f1",
+    "name": "squid",
+    "calsperg": 1.751,
+    "carbs": 0.081,
+    "fat": 0.07,
+    "protein": 0.178
+  },
+  {
+    "id": "be7843b5-f19e-4f68-94da-38740de45e31",
+    "name": "taco shells",
+    "calsperg": 4.76,
+    "carbs": 0.63,
+    "fat": 0.22,
+    "protein": 0.064
+  },
+  {
+    "id": "bf1554fe-9578-4df7-a0db-e3fd0ce3108b",
+    "name": "macaroni",
+    "calsperg": 3.725,
+    "carbs": 0.754,
+    "fat": 0.015,
+    "protein": 0.127
+  },
+  {
+    "id": "bf227d19-e289-4659-9a56-4402a034033e",
+    "name": "hamburgers",
+    "calsperg": 2.95,
+    "carbs": 0.241,
+    "fat": 0.141,
+    "protein": 0.168
+  },
+  {
+    "id": "c0895762-62b1-4d54-b83e-673276b8099b",
+    "name": "romano cheese",
+    "calsperg": 3.874,
+    "carbs": 0.036,
+    "fat": 0.273,
+    "protein": 0.318
+  },
+  {
+    "id": "c1f0f18c-1056-4bfa-815d-1861f2eaab0c",
+    "name": "banana",
+    "calsperg": 0.89,
+    "carbs": 0.23,
+    "fat": 0.003,
+    "protein": 0.011
+  },
+  {
+    "id": "c1fbe47e-0628-41bb-9a8c-f5dd5eac9b98",
+    "name": "ice cream cones",
+    "calsperg": 4.189,
+    "carbs": 0.79,
+    "fat": 0.071,
+    "protein": 0.079
+  },
+  {
+    "id": "c25a91f1-a34b-40db-be64-5db0ebdeff88",
+    "name": "flounder",
+    "calsperg": 0.703,
+    "carbs": 0,
+    "fat": 0.019,
+    "protein": 0.124
+  },
+  {
+    "id": "c37cf3d4-3ccc-413c-b1dc-c0c0afa741cb",
+    "name": "strawberries",
+    "calsperg": 0.33,
+    "carbs": 0.08,
+    "fat": 0.003,
+    "protein": 0.007
+  },
+  {
+    "id": "c503d1ec-5dbc-4fa8-9840-36a68d534a43",
+    "name": "coconuts",
+    "calsperg": 3.537,
+    "carbs": 0.152,
+    "fat": 0.333,
+    "protein": 0.033
+  },
+  {
+    "id": "c5186e86-7c8f-4131-a790-4accb02da425",
+    "name": "sausage",
+    "calsperg": 3.446,
+    "carbs": 0.042,
+    "fat": 0.273,
+    "protein": 0.193
+  },
+  {
+    "id": "c57352eb-9af7-4b0a-a358-df8388bb37bf",
+    "name": "iced tea",
+    "calsperg": 0.373,
+    "carbs": 0.093,
+    "fat": 0.001,
+    "protein": 0
+  },
+  {
+    "id": "c62635d7-e417-4114-9127-05c318ac0746",
+    "name": "alfalfa",
+    "calsperg": 0.29,
+    "carbs": 0.038,
+    "fat": 0.007,
+    "protein": 0.04
+  },
+  {
+    "id": "c6268a32-358e-4cb7-a5a0-c42e9aaa05c7",
+    "name": "crawfish",
+    "calsperg": 0.77,
+    "carbs": 0,
+    "fat": 0.01,
+    "protein": 0.16
+  },
+  {
+    "id": "c6ad02cb-c8ba-402e-a2b1-a0cb9837eb9b",
+    "name": "mackerel",
+    "calsperg": 2.62,
+    "carbs": 0,
+    "fat": 0.18,
+    "protein": 0.24
+  },
+  {
+    "id": "c6eb094c-d68f-4743-92ce-de082b17da1e",
+    "name": "taco salad",
+    "calsperg": 1.57,
+    "carbs": 0.14,
+    "fat": 0.085,
+    "protein": 0.07
+  },
+  {
+    "id": "c7e9d726-7089-4c58-b7dd-ea338fc381de",
+    "name": "pepperoni pizza",
+    "calsperg": 2.82,
+    "carbs": 0.32,
+    "fat": 0.12,
+    "protein": 0.12
+  },
+  {
+    "id": "c8fab5d0-e483-42d7-9a03-3e4e9c076c79",
+    "name": "tofu",
+    "calsperg": 0.73,
+    "carbs": 0.019,
+    "fat": 0.048,
+    "protein": 0.08
+  },
+  {
+    "id": "c98f2823-0029-491b-9f32-197f602f2863",
+    "name": "spring rolls",
+    "calsperg": 1.543,
+    "carbs": 0.043,
+    "fat": 0.08,
+    "protein": 0.162
+  },
+  {
+    "id": "c9b9dede-5543-463a-a2a0-f6574f279ca7",
+    "name": "pistachios",
+    "calsperg": 5.69,
+    "carbs": 0.28,
+    "fat": 0.46,
+    "protein": 0.21
+  },
+  {
+    "id": "cae1cd3d-aa38-4564-9749-3beec165c042",
+    "name": "cereal bars",
+    "calsperg": 3.42,
+    "carbs": 0.78,
+    "fat": 0.009,
+    "protein": 0.059
+  },
+  {
+    "id": "caf23588-7e23-45d9-abbc-2740e8c6cc03",
+    "name": "toast",
+    "calsperg": 3.131,
+    "carbs": 0.555,
+    "fat": 0.042,
+    "protein": 0.13
+  },
+  {
+    "id": "cd38e15c-3088-4adb-a537-4de5ee9bdcc5",
+    "name": "tacos",
+    "calsperg": 2.26,
+    "carbs": 0.201,
+    "fat": 0.13,
+    "protein": 0.088
+  },
+  {
+    "id": "cd9afafa-d76e-41fa-8554-f1ed80674697",
+    "name": "sandwiches",
+    "calsperg": 2.329,
+    "carbs": 0.179,
+    "fat": 0.13,
+    "protein": 0.11
+  },
+  {
+    "id": "cec6218a-6149-41f3-b9c0-33848af095dd",
+    "name": "peanut butter",
+    "calsperg": 5.895,
+    "carbs": 0.194,
+    "fat": 0.503,
+    "protein": 0.251
+  },
+  {
+    "id": "cfc9001b-a8b5-4753-9d3f-54e42e0c8d2c",
+    "name": "jambalaya",
+    "calsperg": 1.56,
+    "carbs": 0.15,
+    "fat": 0.074,
+    "protein": 0.071
+  },
+  {
+    "id": "d07f8a9c-919e-43f6-84b1-55e069ef246d",
+    "name": "chicken salad",
+    "calsperg": 2.27,
+    "carbs": 0.029,
+    "fat": 0.16,
+    "protein": 0.17
+  },
+  {
+    "id": "d09f8f57-755e-4b72-8131-d8755321ed09",
+    "name": "puddings",
+    "calsperg": 1.197,
+    "carbs": 0.198,
+    "fat": 0.032,
+    "protein": 0.032
+  },
+  {
+    "id": "d135010c-ec7c-4bd1-bb47-246c7f643919",
+    "name": "lentils",
+    "calsperg": 1.14,
+    "carbs": 0.2,
+    "fat": 0.004,
+    "protein": 0.09
+  },
+  {
+    "id": "d18b6b9a-bcd6-490e-919f-761fdd121cea",
+    "name": "ham",
+    "calsperg": 1.45,
+    "carbs": 0.015,
+    "fat": 0.06,
+    "protein": 0.21
+  },
+  {
+    "id": "d274378f-bbcc-4805-b470-908a209baa78",
+    "name": "oregano",
+    "calsperg": 2.7,
+    "carbs": 0.69,
+    "fat": 0.04,
+    "protein": 0.09
+  },
+  {
+    "id": "d2fcaafc-3db6-461c-89f9-bc0d2fc57b78",
+    "name": "grits",
+    "calsperg": 0.59,
+    "carbs": 0.13,
+    "fat": 0.002,
+    "protein": 0.014
+  },
+  {
+    "id": "d3316a27-099e-4cb8-baf6-e283cd08a9c3",
+    "name": "pizza",
+    "calsperg": 2.66,
+    "carbs": 0.33,
+    "fat": 0.097,
+    "protein": 0.11
+  },
+  {
+    "id": "d3a8706b-2efb-4532-a245-5f31c0328629",
+    "name": "carrot",
+    "calsperg": 0.41,
+    "carbs": 0.1,
+    "fat": 0.002,
+    "protein": 0.009
+  },
+  {
+    "id": "d3d64a87-78a9-467c-9493-38af107cfa20",
+    "name": "tempeh",
+    "calsperg": 1.929,
+    "carbs": 0.093,
+    "fat": 0.109,
+    "protein": 0.188
+  },
+  {
+    "id": "d41e7803-6a43-4442-acc2-e19530cd4e15",
+    "name": "wheat berry",
+    "calsperg": 0.91,
+    "carbs": 0.191,
+    "fat": 0.005,
+    "protein": 0.042
+  },
+  {
+    "id": "d45a9e38-4a30-424e-9c24-85290b8f9d7b",
+    "name": "ketchup",
+    "calsperg": 1.12,
+    "carbs": 0.26,
+    "fat": 0.002,
+    "protein": 0.013
+  },
+  {
+    "id": "d4a213f2-042f-49ea-a7d0-fc379ae29213",
+    "name": "tempura",
+    "calsperg": 1.05,
+    "carbs": 0.11,
+    "fat": 0.039,
+    "protein": 0.065
+  },
+  {
+    "id": "d4c54896-e453-4dd8-8893-7bd840aa8107",
+    "name": "chocolate cake",
+    "calsperg": 3.707,
+    "carbs": 0.534,
+    "fat": 0.15,
+    "protein": 0.052
+  },
+  {
+    "id": "d5245d78-9642-4c86-8f5c-e9eb9438c574",
+    "name": "pumpkin seeds",
+    "calsperg": 4.46,
+    "carbs": 0.54,
+    "fat": 0.19,
+    "protein": 0.19
+  },
+  {
+    "id": "d54f6265-25bf-480a-b9e8-05063967745b",
+    "name": "vinaigrette",
+    "calsperg": 4.655,
+    "carbs": 0.026,
+    "fat": 0.518,
+    "protein": 0
+  },
+  {
+    "id": "d58a57b3-99a0-4590-a694-3cd94de931f6",
+    "name": "champagne",
+    "calsperg": 0.82,
+    "carbs": 0.026,
+    "fat": 0,
+    "protein": 0.001
+  },
+  {
+    "id": "d59378a9-7847-428b-9c26-1f38fe7a24de",
+    "name": "calzones",
+    "calsperg": 3.08,
+    "carbs": 0.13,
+    "fat": 0.21,
+    "protein": 0.16
+  },
+  {
+    "id": "d6534673-91ea-4cb0-9ea6-0df4cb96ad46",
+    "name": "peaches",
+    "calsperg": 0.393,
+    "carbs": 0.095,
+    "fat": 0.003,
+    "protein": 0.009
+  },
+  {
+    "id": "d698ae94-6e1e-4cd8-be26-45f1d3ac6d1f",
+    "name": "chard",
+    "calsperg": 0.19,
+    "carbs": 0.037,
+    "fat": 0.002,
+    "protein": 0.018
+  },
+  {
+    "id": "d8c96123-ad7d-4bf2-9075-48696852f729",
+    "name": "soft serve ice creams",
+    "calsperg": 2.234,
+    "carbs": 0.222,
+    "fat": 0.13,
+    "protein": 0.041
+  },
+  {
+    "id": "d9310af3-58cc-47d6-8aee-6f17f300017e",
+    "name": "grilled chicken",
+    "calsperg": 2.262,
+    "carbs": 0.001,
+    "fat": 0.149,
+    "protein": 0.226
+  },
+  {
+    "id": "d9f62aa4-3269-46f9-aa69-dd073991041b",
+    "name": "kale",
+    "calsperg": 0.49,
+    "carbs": 0.09,
+    "fat": 0.007,
+    "protein": 0.033
+  },
+  {
+    "id": "da441ff7-755a-43cb-a1b2-b3168effafa8",
+    "name": "carrot cake",
+    "calsperg": 4.153,
+    "carbs": 0.786,
+    "fat": 0.099,
+    "protein": 0.05
+  },
+  {
+    "id": "dabe8ff6-b779-4023-aeab-6312c25c9c8e",
+    "name": "rye bread",
+    "calsperg": 2.586,
+    "carbs": 0.482,
+    "fat": 0.032,
+    "protein": 0.086
+  },
+  {
+    "id": "db669ea5-1ca7-4f14-b498-8ca5b7432eda",
+    "name": "coleslaw",
+    "calsperg": 1.523,
+    "carbs": 0.148,
+    "fat": 0.097,
+    "protein": 0.01
+  },
+  {
+    "id": "db855ec4-7e21-4f4d-9b84-18e0227c011b",
+    "name": "fritters",
+    "calsperg": 2.76,
+    "carbs": 0.2,
+    "fat": 0.2,
+    "protein": 0.046
+  },
+  {
+    "id": "dbbeaef3-1ac6-45f4-903e-4e3d09636a9d",
+    "name": "mixed vegetables",
+    "calsperg": 0.32,
+    "carbs": 0.069,
+    "fat": 0.003,
+    "protein": 0.017
+  },
+  {
+    "id": "dd3acced-c94e-443d-b833-d3addada686a",
+    "name": "eggs",
+    "calsperg": 1.555,
+    "carbs": 0.012,
+    "fat": 0.105,
+    "protein": 0.125
+  },
+  {
+    "id": "de23d9b4-ab8a-4237-b431-2910bee02f42",
+    "name": "artic char",
+    "calsperg": 1.54,
+    "carbs": 0,
+    "fat": 0.081,
+    "protein": 0.2
+  },
+  {
+    "id": "de385f8a-012c-4b4d-a02c-04d949d12cfd",
+    "name": "trout",
+    "calsperg": 1.409,
+    "carbs": 0,
+    "fat": 0.06,
+    "protein": 0.201
+  },
+  {
+    "id": "de888778-4c36-42ae-af49-3be9af8ced3b",
+    "name": "horseradish",
+    "calsperg": 0.48,
+    "carbs": 0.11,
+    "fat": 0.007,
+    "protein": 0.012
+  },
+  {
+    "id": "df11580f-3198-4276-992c-567e83cc5fe5",
+    "name": "millet",
+    "calsperg": 1.19,
+    "carbs": 0.237,
+    "fat": 0.01,
+    "protein": 0.035
+  },
+  {
+    "id": "df4669f7-a765-4ead-aba1-078e035b8f4d",
+    "name": "walnuts",
+    "calsperg": 6.533,
+    "carbs": 0.139,
+    "fat": 0.642,
+    "protein": 0.151
+  },
+  {
+    "id": "e01e1b82-e9d5-4eb9-befb-e8082db76bf3",
+    "name": "jicama",
+    "calsperg": 0.38,
+    "carbs": 0.09,
+    "fat": 0.001,
+    "protein": 0.007
+  },
+  {
+    "id": "e09054d5-afa6-40a0-b4af-afd969554eee",
+    "name": "artichokes",
+    "calsperg": 0.47,
+    "carbs": 0.11,
+    "fat": 0.002,
+    "protein": 0.033
+  },
+  {
+    "id": "e091003f-f6ee-4eed-8768-6df0c26f384c",
+    "name": "pot pies",
+    "calsperg": 1.982,
+    "carbs": 0.189,
+    "fat": 0.113,
+    "protein": 0.049
+  },
+  {
+    "id": "e1901e8c-8ed0-443c-afd8-25ffe2e6dd30",
+    "name": "bean sprouts",
+    "calsperg": 0.3,
+    "carbs": 0.059,
+    "fat": 0.002,
+    "protein": 0.03
+  },
+  {
+    "id": "e1ffbe4c-a1bf-4e2e-8aa4-ba07d1ac63c3",
+    "name": "egg rolls",
+    "calsperg": 1.966,
+    "carbs": 0.287,
+    "fat": 0.045,
+    "protein": 0.102
+  },
+  {
+    "id": "e22aa94c-89b8-4314-af62-34d6f469ad34",
+    "name": "sourdough bread",
+    "calsperg": 2.889,
+    "carbs": 0.562,
+    "fat": 0.018,
+    "protein": 0.119
+  },
+  {
+    "id": "e2b4314c-7b27-4bc5-bbe2-4d31570c173e",
+    "name": "fruit cocktail",
+    "calsperg": 0.73,
+    "carbs": 0.19,
+    "fat": 0.001,
+    "protein": 0.004
+  },
+  {
+    "id": "e2f3bef4-f0cd-45ed-a2d1-7cb2376be8e3",
+    "name": "jams",
+    "calsperg": 2.78,
+    "carbs": 0.69,
+    "fat": 0.001,
+    "protein": 0.004
+  },
+  {
+    "id": "e3774c1a-6288-4c3e-8351-d176a4688733",
+    "name": "catfish",
+    "calsperg": 1.44,
+    "carbs": 0,
+    "fat": 0.072,
+    "protein": 0.18
+  },
+  {
+    "id": "e38c1e3f-a143-4733-be23-0c856d9d8ea7",
+    "name": "pasta salad",
+    "calsperg": 2.015,
+    "carbs": 0.173,
+    "fat": 0.119,
+    "protein": 0.059
+  },
+  {
+    "id": "e48054b4-c0ae-4f95-9b23-d7fdd9363b07",
+    "name": "cod",
+    "calsperg": 0.847,
+    "carbs": 0,
+    "fat": 0.005,
+    "protein": 0.189
+  },
+  {
+    "id": "e4f0e028-d8e2-46c6-9038-baae8d0a11a6",
+    "name": "potato skins",
+    "calsperg": 3.4,
+    "carbs": 0.15,
+    "fat": 0.26,
+    "protein": 0.13
+  },
+  {
+    "id": "e62cacbb-2fb1-493f-b8be-bfb52d6e6a9f",
+    "name": "corn dogs",
+    "calsperg": 2.629,
+    "carbs": 0.32,
+    "fat": 0.109,
+    "protein": 0.099
+  },
+  {
+    "id": "e6382be9-9459-49bd-820b-0b1597f33e69",
+    "name": "turnips",
+    "calsperg": 0.217,
+    "carbs": 0.051,
+    "fat": 0.001,
+    "protein": 0.007
+  },
+  {
+    "id": "e6a1d549-6a44-4cd5-aadc-47342824ed09",
+    "name": "mousse",
+    "calsperg": 2.249,
+    "carbs": 0.16,
+    "fat": 0.16,
+    "protein": 0.041
+  },
+  {
+    "id": "e6b675f0-b50f-4570-aa87-a1259c98c999",
+    "name": "chicken soup",
+    "calsperg": 0.355,
+    "carbs": 0.034,
+    "fat": 0.012,
+    "protein": 0.025
+  },
+  {
+    "id": "e78d7518-fbc2-4fce-b9f2-5cdf5aecbf78",
+    "name": "roast beef",
+    "calsperg": 1.698,
+    "carbs": 0,
+    "fat": 0.059,
+    "protein": 0.291
+  },
+  {
+    "id": "e8018b76-ae09-4d8b-b6c5-6d4645553faa",
+    "name": "pineapple",
+    "calsperg": 0.5,
+    "carbs": 0.13,
+    "fat": 0.001,
+    "protein": 0.005
+  },
+  {
+    "id": "e96ff863-3ca9-4e5b-b79e-47cd09e9f7c6",
+    "name": "roasted potatoes",
+    "calsperg": 1.41,
+    "carbs": 0.18,
+    "fat": 0.068,
+    "protein": 0.021
+  },
+  {
+    "id": "e9896ce5-3868-400c-9560-3f227ddc8877",
+    "name": "ground chicken",
+    "calsperg": 1.89,
+    "carbs": 0,
+    "fat": 0.11,
+    "protein": 0.23
+  },
+  {
+    "id": "ea024ddb-2d67-408e-84d1-0a8537879186",
+    "name": "sour cream",
+    "calsperg": 1.98,
+    "carbs": 0.046,
+    "fat": 0.19,
+    "protein": 0.024
+  },
+  {
+    "id": "ea16f622-edac-494c-ab0b-77424fb6b9d1",
+    "name": "stout beer",
+    "calsperg": 0.45,
+    "carbs": 0.015,
+    "fat": 0,
+    "protein": 0.002
+  },
+  {
+    "id": "ea5445e8-226d-4abd-894e-a8e6e9022bc0",
+    "name": "india pale ale beer",
+    "calsperg": 0.556,
+    "carbs": 0.017,
+    "fat": 0,
+    "protein": 0.003
+  },
+  {
+    "id": "eaec9bf2-c0bc-4b91-8a0a-2665ecb3adda",
+    "name": "greek yogurt",
+    "calsperg": 0.59,
+    "carbs": 0.036,
+    "fat": 0.004,
+    "protein": 0.1
+  },
+  {
+    "id": "eafb6935-43a1-4692-a019-23cc5fd079e8",
+    "name": "tahini",
+    "calsperg": 5.956,
+    "carbs": 0.211,
+    "fat": 0.535,
+    "protein": 0.17
+  },
+  {
+    "id": "eb3f572c-19d6-448f-bda4-312b861a5feb",
+    "name": "american cheese",
+    "calsperg": 3.12,
+    "carbs": 0.088,
+    "fat": 0.23,
+    "protein": 0.17
+  },
+  {
+    "id": "eb534360-9d01-4907-be7b-4b78631a294f",
+    "name": "blue cheese",
+    "calsperg": 3.53,
+    "carbs": 0.023,
+    "fat": 0.29,
+    "protein": 0.21
+  },
+  {
+    "id": "eb67dd15-ddc8-4f83-a576-098683583e03",
+    "name": "lamb chops",
+    "calsperg": 2.941,
+    "carbs": 0,
+    "fat": 0.211,
+    "protein": 0.247
+  },
+  {
+    "id": "eb8b5744-8ffa-4d6f-a12d-f171b34d9ef6",
+    "name": "chicken breast",
+    "calsperg": 1.652,
+    "carbs": 0,
+    "fat": 0.036,
+    "protein": 0.311
+  },
+  {
+    "id": "ebc723b5-9cfc-456a-b6bb-85fba68d5174",
+    "name": "cornbread",
+    "calsperg": 2.66,
+    "carbs": 0.44,
+    "fat": 0.071,
+    "protein": 0.067
+  },
+  {
+    "id": "ebe4d176-81d2-4b98-9375-a6222fd03e64",
+    "name": "grapefruits",
+    "calsperg": 0.42,
+    "carbs": 0.11,
+    "fat": 0.001,
+    "protein": 0.008
+  },
+  {
+    "id": "ec1ea40a-ff54-4ac8-8cdd-9c527657e589",
+    "name": "flatbread",
+    "calsperg": 2.75,
+    "carbs": 0.56,
+    "fat": 0.012,
+    "protein": 0.091
+  },
+  {
+    "id": "ed17dc5d-35bb-4806-b797-e3872cc830aa",
+    "name": "oil",
+    "calsperg": 8.864,
+    "carbs": 0,
+    "fat": 1,
+    "protein": 0
+  },
+  {
+    "id": "ed8f2c35-e7c6-493b-96fe-9e36a74567ae",
+    "name": "halibut",
+    "calsperg": 1.11,
+    "carbs": 0,
+    "fat": 0.016,
+    "protein": 0.23
+  },
+  {
+    "id": "ee0f5904-4b01-480c-8f26-b7d9bf0da934",
+    "name": "chicken",
+    "calsperg": 1.65,
+    "carbs": 0,
+    "fat": 0.036,
+    "protein": 0.31
+  },
+  {
+    "id": "ef720d5e-c5b2-4f65-a690-8c2a02124635",
+    "name": "cheese",
+    "calsperg": 4.02,
+    "carbs": 0.013,
+    "fat": 0.33,
+    "protein": 0.25
+  },
+  {
+    "id": "ef86458c-e9c3-4eb2-b196-b2fc1b9fd4d8",
+    "name": "chutney",
+    "calsperg": 1.2,
+    "carbs": 0.1,
+    "fat": 0.08,
+    "protein": 0.05
+  },
+  {
+    "id": "efc3798d-abb1-4b96-9f67-6de747b6cf35",
+    "name": "nougat",
+    "calsperg": 3.99,
+    "carbs": 0.924,
+    "fat": 0.016,
+    "protein": 0.034
+  },
+  {
+    "id": "f166fc2c-6b31-458f-a81b-63a87e510713",
+    "name": "pepperoni",
+    "calsperg": 4.936,
+    "carbs": 0,
+    "fat": 0.438,
+    "protein": 0.231
+  },
+  {
+    "id": "f2ece36b-5285-46d4-a761-db9c7dd8ec27",
+    "name": "pate nutrition",
+    "calsperg": 3.182,
+    "carbs": 0.015,
+    "fat": 0.281,
+    "protein": 0.141
+  },
+  {
+    "id": "f30c4cfd-091f-4678-8b91-98605ea53104",
+    "name": "souffle",
+    "calsperg": 1.691,
+    "carbs": 0.06,
+    "fat": 0.13,
+    "protein": 0.079
+  },
+  {
+    "id": "f3e577e6-49d9-45ae-9547-12aa0790655f",
+    "name": "syrup",
+    "calsperg": 2.6,
+    "carbs": 0.67,
+    "fat": 0.001,
+    "protein": 0
+  },
+  {
+    "id": "f4393524-58ec-49e6-ae13-656ebcaee1f5",
+    "name": "rolls",
+    "calsperg": 3.089,
+    "carbs": 0.521,
+    "fat": 0.065,
+    "protein": 0.107
+  },
+  {
+    "id": "f4771440-d492-4d21-9c2c-214247428ade",
+    "name": "pork chops",
+    "calsperg": 2.308,
+    "carbs": 0,
+    "fat": 0.141,
+    "protein": 0.239
+  },
+  {
+    "id": "f49cf576-6756-4dec-b6ad-84898a015030",
+    "name": "scallops",
+    "calsperg": 1.059,
+    "carbs": 0.059,
+    "fat": 0.006,
+    "protein": 0.2
+  },
+  {
+    "id": "f4d7de86-7e46-4848-b02b-5a38296b285d",
+    "name": "trail mix",
+    "calsperg": 4.62,
+    "carbs": 0.454,
+    "fat": 0.286,
+    "protein": 0.139
+  },
+  {
+    "id": "f52035ae-e0ab-4680-86a7-afc2cd7fbc03",
+    "name": "french fries",
+    "calsperg": 3.12,
+    "carbs": 0.41,
+    "fat": 0.15,
+    "protein": 0.034
+  },
+  {
+    "id": "f538678b-19d2-458e-8cb6-80d7b9d7baff",
+    "name": "lemon",
+    "calsperg": 0.29,
+    "carbs": 0.09,
+    "fat": 0.003,
+    "protein": 0.011
+  },
+  {
+    "id": "f54482a1-ebac-4089-9161-594fb7a9481d",
+    "name": "plate only",
+    "calsperg": 0,
+    "carbs": 0,
+    "fat": 0,
+    "protein": 0
+  },
+  {
+    "id": "f59197a3-383a-40d5-a4f2-aa5ba88390d0",
+    "name": "sherbet",
+    "calsperg": 1.44,
+    "carbs": 0.3,
+    "fat": 0.02,
+    "protein": 0.011
+  },
+  {
+    "id": "f60eddc3-3d41-4b3f-8aa0-212603087d69",
+    "name": "havarti cheese",
+    "calsperg": 3.71,
+    "carbs": 0.028,
+    "fat": 0.3,
+    "protein": 0.23
+  },
+  {
+    "id": "f6847da5-6a58-476a-bd8b-5115ebb2b3f3",
+    "name": "quesadillas",
+    "calsperg": 3.68,
+    "carbs": 0.24,
+    "fat": 0.23,
+    "protein": 0.16
+  },
+  {
+    "id": "f6e9353a-0a31-484b-be00-074753751fa2",
+    "name": "pilaf",
+    "calsperg": 1.592,
+    "carbs": 0.256,
+    "fat": 0.049,
+    "protein": 0.025
+  },
+  {
+    "id": "f6ef2976-133d-43b9-b32b-b559eae56372",
+    "name": "noodles",
+    "calsperg": 1.38,
+    "carbs": 0.25,
+    "fat": 0.021,
+    "protein": 0.045
+  },
+  {
+    "id": "f7439d47-9986-4fe3-bec5-c1abbc92230d",
+    "name": "candies",
+    "calsperg": 3.94,
+    "carbs": 0.98,
+    "fat": 0.002,
+    "protein": 0
+  },
+  {
+    "id": "f7ff0290-69de-436f-809f-58df9f012132",
+    "name": "lettuce",
+    "calsperg": 0.15,
+    "carbs": 0.029,
+    "fat": 0.002,
+    "protein": 0.014
+  },
+  {
+    "id": "f83556ee-9b53-4f44-b987-96ba4c35afb8",
+    "name": "oats",
+    "calsperg": 3.89,
+    "carbs": 0.663,
+    "fat": 0.069,
+    "protein": 0.169
+  },
+  {
+    "id": "f894bfe4-9d94-45e3-af13-b5dba194d750",
+    "name": "chive",
+    "calsperg": 0.3,
+    "carbs": 0.044,
+    "fat": 0.007,
+    "protein": 0.033
+  },
+  {
+    "id": "f8c1b6cf-4e94-4ed0-94ef-eab1cdafdcb2",
+    "name": "cupcakes",
+    "calsperg": 3.055,
+    "carbs": 0.672,
+    "fat": 0.036,
+    "protein": 0.042
+  },
+  {
+    "id": "f938801c-5431-41ce-a2ba-80f49909a19a",
+    "name": "hominy",
+    "calsperg": 0.721,
+    "carbs": 0.143,
+    "fat": 0.009,
+    "protein": 0.015
+  },
+  {
+    "id": "f986ea9b-4ddb-439e-97e8-151a3b1df5aa",
+    "name": "stuffing",
+    "calsperg": 3.854,
+    "carbs": 0.767,
+    "fat": 0.035,
+    "protein": 0.11
+  },
+  {
+    "id": "f9c0329b-64e0-48d7-9dd1-a15680377e8e",
+    "name": "veggie burgers",
+    "calsperg": 1.771,
+    "carbs": 0.141,
+    "fat": 0.061,
+    "protein": 0.159
+  },
+  {
+    "id": "f9e6080c-9cc4-4b2d-a494-9b5e4e952242",
+    "name": "white beans",
+    "calsperg": 1.39,
+    "carbs": 0.251,
+    "fat": 0.004,
+    "protein": 0.097
+  },
+  {
+    "id": "f9f8e063-fd56-40dc-96df-ff45a53adb45",
+    "name": "brown rice",
+    "calsperg": 1.11,
+    "carbs": 0.23,
+    "fat": 0.009,
+    "protein": 0.026
+  },
+  {
+    "id": "fabb3a56-8add-4c3c-aa4d-7bfa5524bdf8",
+    "name": "vegetable juice",
+    "calsperg": 0.22,
+    "carbs": 0.039,
+    "fat": 0.003,
+    "protein": 0.009
+  },
+  {
+    "id": "fad3bb30-e145-46f2-8bf6-4686e85cf6de",
+    "name": "bok choy",
+    "calsperg": 0.13,
+    "carbs": 0.022,
+    "fat": 0.002,
+    "protein": 0.015
+  },
+  {
+    "id": "fb4bfd71-e8f9-461f-81fb-a26920cadefc",
+    "name": "barley",
+    "calsperg": 1.23,
+    "carbs": 0.28,
+    "fat": 0.004,
+    "protein": 0.023
+  },
+  {
+    "id": "fc5af2ae-1c2b-42b4-a3c6-f56121d44467",
+    "name": "chestnuts",
+    "calsperg": 1.308,
+    "carbs": 0.281,
+    "fat": 0.014,
+    "protein": 0.021
+  },
+  {
+    "id": "fcc66706-cb38-4f22-8f49-99758dc4e638",
+    "name": "cheesecake",
+    "calsperg": 3.21,
+    "carbs": 0.253,
+    "fat": 0.223,
+    "protein": 0.057
+  },
+  {
+    "id": "fcd601f0-78ff-4831-9718-17ae3ff37a40",
+    "name": "alcohol",
+    "calsperg": 0.431,
+    "carbs": 0.036,
+    "fat": 0,
+    "protein": 0.005
+  },
+  {
+    "id": "ff03642f-2843-4b06-b7c1-b1df07043061",
+    "name": "smoked salmon",
+    "calsperg": 1.173,
+    "carbs": 0,
+    "fat": 0.043,
+    "protein": 0.184
+  },
+  {
+    "id": "ff303bbc-3a9b-467e-98c8-df31e35e28d3",
+    "name": "zucchini",
+    "calsperg": 0.15,
+    "carbs": 0.027,
+    "fat": 0.004,
+    "protein": 0.011
+  },
+  {
+    "id": "ff7a817f-c033-46e1-a7e7-9af4c1269726",
+    "name": "scrambled eggs",
+    "calsperg": 1.48,
+    "carbs": 0.016,
+    "fat": 0.11,
+    "protein": 0.1
+  },
+  {
+    "id": "ff8ca588-ca60-45d3-a8e5-8d89ce02b267",
+    "name": "baby carrots",
+    "calsperg": 0.41,
+    "carbs": 0.1,
+    "fat": 0.002,
+    "protein": 0.009
+  },
+  {
+    "id": "fffa255a-4264-4662-addc-96197859ef6b",
+    "name": "squash",
+    "calsperg": 0.205,
+    "carbs": 0.034,
+    "fat": 0.003,
+    "protein": 0.009
+  }
+]

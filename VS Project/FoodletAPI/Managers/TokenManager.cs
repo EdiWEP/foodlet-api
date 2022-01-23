@@ -25,6 +25,26 @@ namespace FoodletAPI.Managers
             _userRepo = userRepo;
         }
 
+        public string GetUserIdFromToken(string tokenHeader)
+        {
+            string tokenString = StripHeader(tokenHeader);
+
+            var handler = new JwtSecurityTokenHandler();
+            var token = handler.ReadJwtToken(tokenString);
+            var claims = token.Payload.Claims.ToList();
+
+            foreach (var claim in claims)
+            {
+
+                if (claim.Type == "nameid")
+                {
+
+                    return claim.Value;
+                }
+            }
+
+            return null;
+        }
 
         public async Task<bool> VerifyRequestedUser(string tokenHeader, string user, bool byUsername = false)
         {
@@ -88,6 +108,11 @@ namespace FoodletAPI.Managers
             var token = tokenHandler.CreateToken(tokenDescriptor);
 
             return tokenHandler.WriteToken(token);
+        }
+
+        private string StripHeader(string tokenHeader)
+        {
+            return tokenHeader.Split(' ')[1];
         }
     }
 }

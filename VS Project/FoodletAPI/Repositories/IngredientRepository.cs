@@ -42,7 +42,7 @@ namespace FoodletAPI.Repositories
         public async Task<List<Ingredient>> SearchByName(string term, string userId)
         {
 
-            return await _set.Where(x => x.Name.Contains(term) && (x.UserId == null || x.UserId == userId)).ToListAsync();
+            return await _set.Where(x => x.Name.Contains(term.ToLower()) && (x.UserId == null || x.UserId == userId)).ToListAsync();
         }
     }
 }

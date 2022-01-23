@@ -142,7 +142,33 @@ namespace FoodletAPI.Managers
             }
         }
 
-        public async Task<int> Delete(string id)
+        public async Task<int> Delete(string id, string userId)
+        {
+            var ingredient = await _repo.GetById(id);
+
+            if (ingredient == null)
+            {
+                return 404;
+            }
+
+            if(ingredient.UserId != userId)
+            {
+                return 403;
+            }
+
+            _repo.Delete(ingredient);
+
+            if (await _repo.SaveChanges())
+            {
+                return 200;
+            }
+            else
+            {
+                return 500;
+            }
+        }
+
+        public async Task<int> ForceDelete(string id)
         {
             var ingredient = await _repo.GetById(id);
 

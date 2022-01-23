@@ -23,17 +23,9 @@ namespace FoodletAPI.Managers
             _userRepo = userRepo;
         }
 
-        public async Task<SearchResultModel> SearchIngredientsByName(string query, string username)
+        public async Task<SearchResultModel> SearchIngredientsByName(string query, string userId)
         {
             var returnModel = new SearchResultModel();
-
-            string userId = await _userRepo.GetIdByUserName(username);
-
-            if (userId == null)
-            {
-                returnModel.Code = 404;
-                return returnModel;
-            }
 
             string[] searchTerms = query.Split(' ');
 
@@ -64,17 +56,9 @@ namespace FoodletAPI.Managers
             return returnModel;
         }
 
-        public async Task<SearchResultModel> SearchRecipesByName(string query, string username)
+        public async Task<SearchResultModel> SearchRecipesByName(string query, string userId)
         {
             var returnModel = new SearchResultModel();
-
-            string userId = await _userRepo.GetIdByUserName(username);
-
-            if (userId == null)
-            {
-                returnModel.Code = 404;
-                return returnModel;
-            }
 
             string[] searchTerms = query.Split(' ');
 

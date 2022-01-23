@@ -23,7 +23,9 @@ namespace FoodletAPI.Interfaces.Managers
 
         Task<bool> AddIngredient(IngredientModel addModel);
 
-        Task<int> Delete(string id);
+        Task<int> Delete(string id, string userId);
+
+        Task<int> ForceDelete(string id);
 
         Task<int> Update(IngredientWithIdModel ingredientModel);
 

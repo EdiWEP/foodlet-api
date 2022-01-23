@@ -23,7 +23,7 @@ namespace FoodletAPI.Controllers
             _tokenManager = tokenManager;
         }
 
-        [HttpGet("all")]
+        [HttpGet("all/admin")]
         [Authorize(Policy = "Admin")]
         public async Task<IActionResult> GetAllRecipes()
         {
@@ -32,15 +32,12 @@ namespace FoodletAPI.Controllers
             return Ok(recipes);
         }
 
-        [HttpGet("all/{userId}")]
+        [HttpGet("all")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> GetAllFromUser([FromRoute] string userId, [FromHeader] string Authorization)
+        public async Task<IActionResult> GetAllFromUser([FromHeader] string Authorization)
         {
 
-            if (!await _tokenManager.VerifyRequestedUser(Authorization, userId))
-            {
-                return StatusCode(403);
-            }
+            var userId = _tokenManager.GetUserIdFromToken(Authorization);
 
             var recipes = await _manager.GetAllFromUser(userId);
 
@@ -48,7 +45,7 @@ namespace FoodletAPI.Controllers
         }
 
         [HttpGet("id/{id}")]
-        [Authorize(Policy = "User")]
+        [Authorize(Policy = "Admin")]
         public async Task<IActionResult> GetRecipeById([FromRoute] string id)
         {
 

@@ -25,14 +25,10 @@ namespace FoodletAPI.Controllers
 
         [HttpGet("{category}/{query}")]
         [Authorize(Policy = "User")]
-        public async Task<IActionResult> Search([FromRoute] string category, [FromRoute] string query, [FromQuery] string user, [FromHeader] string Authorization)
+        public async Task<IActionResult> Search([FromRoute] string category, [FromRoute] string query, [FromHeader] string Authorization)
         {
 
-            var requestedSameUser = await _tokenManager.VerifyRequestedUser(Authorization, user, true); 
-            if (!requestedSameUser)
-            {
-                return StatusCode(403);
-            }
+            var user = _tokenManager.GetUserIdFromToken(Authorization);
 
             SearchResultModel searchResult;
 

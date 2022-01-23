@@ -10,6 +10,8 @@ namespace FoodletAPI.Interfaces.Managers
     {
         Task<string> CreateToken(User user);
 
+        string GetUserIdFromToken(string tokenHeader);
+
         // Verifies if the userId in the token matches the requested userId
         Task<bool> VerifyRequestedUser(string tokenHeader, string userId, bool byUsername = false);
     }
