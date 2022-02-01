@@ -7,3 +7,8 @@ The back-end API for the [Foodlet web application](https://github.com/EdiWEP/foo
 - Built using the **Repository Pattern**, the API has a layered architecture that separates controllers, business logic classes(managers) and repositories
 - The database was created Code-First using **Entity Framework**
 - Handles Authentication using **Entity Framework Identity** and **JWT**
+
+
+## Credits
+
+Default ingredients were taken from the [Nutrition 5k Dataset](https://github.com/google-research-datasets/Nutrition5k)
